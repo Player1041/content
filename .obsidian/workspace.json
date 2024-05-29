@@ -144,9 +144,17 @@
               "type": "calendar",
               "state": {}
             }
+          },
+          {
+            "id": "28c43fc712f86767",
+            "type": "leaf",
+            "state": {
+              "type": "QUICKSHARE_SIDE_VIEW",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -166,7 +174,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "d83b03a1af9434a6",
+  "active": "28c43fc712f86767",
   "lastOpenFiles": [
     "RetroAchievements/Challenge League 2024/Board Images/Board 2 February.png",
     "RetroAchievements/Challenge League 2024/Boards.md",

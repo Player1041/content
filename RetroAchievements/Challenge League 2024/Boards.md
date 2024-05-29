@@ -1,6 +1,6 @@
 ---
-quickshare-date: 2024-05-17 23:57:03
-quickshare-url: "https://noteshare.space/note/clwba4qyk4215301mw81afuody#oVFhhUxmsa+Q6aNKVx1LAZwToRcngLGYL0qQhi3OpvQ"
+quickshare-date: 2024-05-29 21:49:50
+quickshare-url: "https://noteshare.space/note/clwsavfcd2976901mwsb2txe12#+i6T2EpvW+KkL4Wipjyy9sMWeYuCSCYZwk7FYo0LXCc"
 ---
 # January
 
@@ -10,7 +10,7 @@ quickshare-url: "https://noteshare.space/note/clwba4qyk4215301mw81afuody#oVFhhUx
 | Kart Racer    | Moorhuhn Kart                    | PSX      |      | [x]        |
 | 2D Platformer | Drawn to Life: SpongeBob Edition | NDS      |      | [x]        |
 | 3D Fighting   | Skip #1                          | N/A      | N/A  | [x]        |
-| Action        | Antarctic Adventure              | MSX      |      |            |
+| Action        | Antarctic Adventure              | MSX      |      | [x]        |
 | Wildcard      | Fruit Ninja                      | PSP      |      | [x]        |
 | Educational   | Bubble Guppies                   | NDS      |      |            |
 | Run and Gun   | Alien Syndrome                   | NES      |      |            |
