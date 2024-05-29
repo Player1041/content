@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Player's Vault.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Player's Vault.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Player's Vault.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Player's Vault.md"
               }
             }
           },
@@ -154,7 +154,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -178,7 +178,7 @@
   "active": "d83b03a1af9434a6",
   "lastOpenFiles": [
     "RetroAchievements/Challenge League 2024/Boards.md",
-    "README.md",
+    "Player's Vault.md",
     "RetroAchievements/Challenge League 2024/Board Images/Board 4 May.png",
     "RetroAchievements/Challenge League 2024/Board Images/Board 2 February.png",
     "New Text Document.txt",
