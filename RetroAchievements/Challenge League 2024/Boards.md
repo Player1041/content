@@ -10,7 +10,7 @@ quickshare-url: "https://noteshare.space/note/clwsavfcd2976901mwsb2txe12#+i6T2Ep
 | Kart Racer    | Moorhuhn Kart                    | PSX      |      | [x]        |
 | 2D Platformer | Drawn to Life: SpongeBob Edition | NDS      |      | [x]        |
 | 3D Fighting   | Skip #1                          | N/A      | N/A  | [x]        |
-| Action        | Antarctic Adventure              | MSX      |      | [x]        |
+| Action        | Antarctic Adventure              | MSX      |      |            |
 | Wildcard      | Fruit Ninja                      | PSP      |      | [x]        |
 | Educational   | Bubble Guppies                   | NDS      |      |            |
 | Run and Gun   | Alien Syndrome                   | NES      |      |            |
