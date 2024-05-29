@@ -11,9 +11,11 @@
             "id": "d83b03a1af9434a6",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "RetroAchievements/Challenge League 2024/Board Images/Board 2 February.png"
+                "file": "RetroAchievements/Challenge League 2024/Boards.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "RetroAchievements/Challenge League 2024/Board Images/Board 2 February.png",
+                "file": "RetroAchievements/Challenge League 2024/Boards.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "RetroAchievements/Challenge League 2024/Board Images/Board 2 February.png",
+                "file": "RetroAchievements/Challenge League 2024/Boards.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "RetroAchievements/Challenge League 2024/Board Images/Board 2 February.png"
+                "file": "RetroAchievements/Challenge League 2024/Boards.md"
               }
             }
           },
@@ -164,15 +166,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "888908e4d17698a3",
+  "active": "d83b03a1af9434a6",
   "lastOpenFiles": [
+    "RetroAchievements/Challenge League 2024/Board Images/Board 2 February.png",
     "RetroAchievements/Challenge League 2024/Boards.md",
     "README.md",
     "New Text Document.txt",
     "RetroAchievements/Challenge League 2024/Boards/Untitled.loom",
     "RetroAchievements/Challenge League 2024/Board Images/Board 4 May.png",
     "RetroAchievements/Challenge League 2024/Board Images/Board 3 March.png",
-    "RetroAchievements/Challenge League 2024/Board Images/Board 2 February.png",
     "RetroAchievements/Challenge League 2024/Board Images/Board 1 January.png",
     "RetroAchievements/Challenge League 2024/Boards",
     "RetroAchievements/Challenge League 2024/Board Images",

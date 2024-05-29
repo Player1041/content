@@ -30,7 +30,7 @@ quickshare-url: "https://noteshare.space/note/clwba4qyk4215301mw81afuody#oVFhhUx
 | Female    | Chicken Run                              | Dreamcast |      |            |
 | Wildcard  | Cut the Rope                             | DSi       |      | [x]        |
 ### Board Image
-<img src="https://i.vgy.me/vRaPbn.png" width=342 height=256>
+<img src="https://i.vgy.me/J7rvka.png" width=342 height=256>
 
 # March
 
