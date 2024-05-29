@@ -24,7 +24,7 @@ dg-publish: "true"
 | Hub       | Game                                     | Platform  | Link | Completed? |
 | --------- | ---------------------------------------- | --------- | ---- | ---------- |
 | Thief     | Sly Cooper and the Thievius Raccoonus    | PS2       |      |            |
-| Alien     | MediEvil                                 | PSX       |      |            |
+| Alien     |                                          |           |      |            |
 | Wildcard  | Game & Watch: Donkey Kong Jr.            | DSi       |      | [x]        |
 | Clown     | Skip                                     | N/A       |      | [x]        |
 | Detective | Professor Layton and the Curious Village | NDS       |      |            |
