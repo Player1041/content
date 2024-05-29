@@ -23,7 +23,7 @@ quickshare-url: "https://noteshare.space/note/clwba4qyk4215301mw81afuody#oVFhhUx
 | Hub       | Game                                     | Platform  | Link | Completed? |
 | --------- | ---------------------------------------- | --------- | ---- | ---------- |
 | Thief     | Sly Cooper and the Thievius Raccoonus    | PS2       |      |            |
-| Knight    | MediEvil                                 | PSX       |      |            |
+| Alien     | MediEvil                                 | PSX       |      |            |
 | Wildcard  | Game & Watch: Donkey Kong Jr.            | DSi       |      | [x]        |
 | Clown     | Skip                                     | N/A       |      | [x]        |
 | Detective | Professor Layton and the Curious Village | NDS       |      |            |
