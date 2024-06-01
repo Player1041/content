@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Player's Vault.md",
+                "file": "RetroAchievements/Challenge League 2024/Boards.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Player's Vault.md",
+            "file": "RetroAchievements/Challenge League 2024/Boards.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Player's Vault.md",
+            "file": "RetroAchievements/Challenge League 2024/Boards.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -122,7 +122,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Player's Vault.md"
+            "file": "RetroAchievements/Challenge League 2024/Boards.md"
           }
         }
       },
@@ -154,9 +154,9 @@
   },
   "active": "f6805f253e809b99",
   "lastOpenFiles": [
+    "Player's Vault.md",
     "College/Feedback.md",
     "Arcade Game/Ideas/Ideas.md",
-    "RetroAchievements/Challenge League 2024/Boards.md",
-    "Player's Vault.md"
+    "RetroAchievements/Challenge League 2024/Boards.md"
   ]
 }

@@ -6,42 +6,42 @@ dg-publish: "true"
 # January
 
 
-| Hub           | Game                             | Platform | Link | Completed? |
-| ------------- | -------------------------------- | -------- | ---- | ---------- |
-| Kart Racer    | Moorhuhn Kart                    | PSX      |      | [x]        |
-| 2D Platformer | Drawn to Life: SpongeBob Edition | NDS      |      | [x]        |
-| 3D Fighting   | Skip #1                          | N/A      | N/A  | [x]        |
-| Action        | Antarctic Adventure              | MSX      |      |            |
-| Wildcard      | Fruit Ninja                      | PSP      |      | [x]        |
-| Educational   | Bubble Guppies                   | NDS      |      |            |
-| Run and Gun   | Alien Syndrome                   | NES      |      |            |
+| Hub           | Game                             | Platform | Completed? |
+| ------------- | -------------------------------- | -------- | ---------- |
+| Kart Racer    | Moorhuhn Kart                    | PSX      | [x]        |
+| 2D Platformer | Drawn to Life: SpongeBob Edition | NDS      | [x]        |
+| 3D Fighting   | Skip #1                          | N/A      | [x]        |
+| Action        | Antarctic Adventure              | MSX      |            |
+| Wildcard      | Fruit Ninja                      | PSP      | [x]        |
+| Educational   | Bubble Guppies                   | NDS      |            |
+| Run and Gun   | Alien Syndrome                   | NES      |            |
 ### Board Image
 
 <img src="https://i.vgy.me/dzgDHL.png" width=342 height=342>
 
 # February
 
-| Hub       | Game                                     | Platform  | Link | Completed? |
-| --------- | ---------------------------------------- | --------- | ---- | ---------- |
-| Thief     | Sly Cooper and the Thievius Raccoonus    | PS2       |      |            |
-| Alien     |                                          |           |      |            |
-| Wildcard  | Game & Watch: Donkey Kong Jr.            | DSi       |      | [x]        |
-| Clown     | Skip                                     | N/A       |      | [x]        |
-| Detective | Professor Layton and the Curious Village | NDS       |      |            |
-| Female    | Chicken Run                              | Dreamcast |      |            |
-| Wildcard  | Cut the Rope                             | DSi       |      | [x]        |
+| Hub       | Game                                     | Platform  | Completed? |
+| --------- | ---------------------------------------- | --------- | ---------- |
+| Thief     | Sly Cooper and the Thievius Raccoonus    | PS2       |            |
+| Alien     |                                          |           |            |
+| Wildcard  | Game & Watch: Donkey Kong Jr.            | DSi       | [x]        |
+| Clown     | Skip                                     | N/A       | [x]        |
+| Detective | Professor Layton and the Curious Village | NDS       |            |
+| Female    | Chicken Run                              | Dreamcast |            |
+| Wildcard  | Cut the Rope                             | DSi       | [x]        |
 ### Board Image
 <img src="https://i.vgy.me/J7rvka.png" width=342 height=256>
 
 # March
 
-| Hub                | Game                          | Platform  | Link | Completed |
-| ------------------ | ----------------------------- | --------- | ---- | --------- |
-| Cameo              | Konami Krazy Racers           | GBA       |      | [x]       |
-| Post-Apocalyptic   | Skip                          | N/A       |      | [x]       |
-| Dogs               | Wappy Dog                     | NDS       |      | [x]       |
-| Wildcard - Warp    | Hello Kitty no Magical Museum | GBC       |      | [x]       |
-| Wildcard - Dracula | Looney Tunes: Space Race      | Dreamcast |      | [x]       |
+| Hub                | Game                          | Platform  | Completed |
+| ------------------ | ----------------------------- | --------- | --------- |
+| Cameo              | Konami Krazy Racers           | GBA       | [x]       |
+| Post-Apocalyptic   | Skip                          | N/A       | [x]       |
+| Dogs               | Wappy Dog                     | NDS       | [x]       |
+| Wildcard - Warp    | Hello Kitty no Magical Museum | GBC       | [x]       |
+| Wildcard - Dracula | Looney Tunes: Space Race      | Dreamcast | [x]       |
 ### Board Image
 <img src="https://i.vgy.me/JjecrC.png" width=461 height=264>
 
@@ -82,14 +82,14 @@ dg-publish: "true"
 
 ### Choices
 
-| Stage    | Game Series A    | Game Series B  | Game Series C    | Game | Platform | Link | Completed |
-| -------- | ---------------- | -------------- | ---------------- | ---- | -------- | ---- | --------- |
-| 1        | Spyro the Dragon | Tomb Raider    | Grand Theft Auto |      |          |      |           |
-| 2        | Crash Bandicoot  | Castlevania    | Street Fighter   |      |          |      |           |
-| 3        | Yoshi            | Mortal Kombat  | Bomberman        |      |          |      |           |
-| 4        | Id Shooter       | Kingdom Hearts | Super Mario      |      |          |      |           |
-| 5        | Donkey Kong      | Pokémon        | Mega Man         |      |          |      |           |
-| Wildcard | N/A              | N/A            | N/A              |      |          |      |           |
+| Stage    | Game Series A    | Game Series B  | Game Series C    | Game | Platform | Completed |
+| -------- | ---------------- | -------------- | ---------------- | ---- | -------- | --------- |
+| 1        | Spyro the Dragon | Tomb Raider    | Grand Theft Auto |      |          |           |
+| 2        | Crash Bandicoot  | Castlevania    | Street Fighter   |      |          |           |
+| 3        | Yoshi            | Mortal Kombat  | Bomberman        |      |          |           |
+| 4        | Id Shooter       | Kingdom Hearts | Super Mario      |      |          |           |
+| 5        | Donkey Kong      | Pokémon        | Mega Man         |      |          |           |
+| Wildcard | N/A              | N/A            | N/A              |      |          |           |
 
 
 ### Board Image
