@@ -11,7 +11,7 @@ dg-publish: "true"
 | Kart Racer    | Moorhuhn Kart                    | PSX      | [x]        |
 | 2D Platformer | Drawn to Life: SpongeBob Edition | NDS      | [x]        |
 | 3D Fighting   | Skip #1                          | N/A      | [x]        |
-| Action        | Antarctic Adventure              | MSX      |            |
+| Action        | Pac-Pix                          | MSX      |            |
 | Wildcard      | Fruit Ninja                      | PSP      | [x]        |
 | Educational   | Bubble Guppies                   | NDS      |            |
 | Run and Gun   | Alien Syndrome                   | NES      |            |
@@ -102,6 +102,16 @@ Cid Highwind: Final Fantasy (or other RPGs)/Zelda/Hacks featuring cameos
 
 Ultima: Wildcard
 
+
+| Hub                                               | Hack or Homebrew | Game     | Platform | Completed |
+| ------------------------------------------------- | ---------------- | -------- | -------- | --------- |
+| Final Fantasy / Zelda / Hacks feat. Cameos        | Hack             |          |          |           |
+| Sony Console                                      | Homebrew         |          |          |           |
+| Mega Man / Sonic / Fighters                       | Hack             |          |          |           |
+| Nintendo Handheld                                 | Homebrew         | Loopover | NDS      |           |
+| Pokémon / Donkey Kong Country / Hacks feat. Duos  | Hack             |          |          |           |
+| Colecovision / Intellivision / MagneVox Odyssey 2 | Homebrew         |          |          |           |
+| Wildcard                                          | Hack             |          |          |           |
 
 
 # July
