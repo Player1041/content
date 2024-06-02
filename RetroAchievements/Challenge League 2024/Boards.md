@@ -108,7 +108,7 @@ Ultima: Wildcard
 | Final Fantasy / Zelda / Hacks feat. Cameos        | Hack             |          |          |           |
 | Sony Console                                      | Homebrew         |          |          |           |
 | Mega Man / Sonic / Fighters                       | Hack             |          |          |           |
-| Nintendo Handheld                                 | Homebrew         | Loopover | NDS      |           |
+| Nintendo Handheld                                 | Homebrew         | Loopover | NDS      | [x]       |
 | Pokémon / Donkey Kong Country / Hacks feat. Duos  | Hack             |          |          |           |
 | Colecovision / Intellivision / MagneVox Odyssey 2 | Homebrew         |          |          |           |
 | Wildcard                                          | Hack             |          |          |           |
