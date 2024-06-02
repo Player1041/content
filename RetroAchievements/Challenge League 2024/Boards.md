@@ -103,15 +103,15 @@ Cid Highwind: Final Fantasy (or other RPGs)/Zelda/Hacks featuring cameos
 Ultima: Wildcard
 
 
-| Hub                                               | Hack or Homebrew | Game     | Platform | Completed |
-| ------------------------------------------------- | ---------------- | -------- | -------- | --------- |
-| Final Fantasy / Zelda / Hacks feat. Cameos        | Hack             |          |          |           |
-| Sony Console                                      | Homebrew         |          |          |           |
-| Mega Man / Sonic / Fighters                       | Hack             |          |          |           |
-| Nintendo Handheld                                 | Homebrew         | Loopover | NDS      | [x]       |
-| Pokémon / Donkey Kong Country / Hacks feat. Duos  | Hack             |          |          |           |
-| Colecovision / Intellivision / MagneVox Odyssey 2 | Homebrew         | Boobs    | MO2      |           |
-| Wildcard                                          | Hack             |          |          |           |
+| Hub                                               | Hack or Homebrew | Game        | Platform | Completed |
+| ------------------------------------------------- | ---------------- | ----------- | -------- | --------- |
+| Final Fantasy / Zelda / Hacks feat. Cameos        | Hack             |             |          |           |
+| Sony Console                                      | Homebrew         | Fruit Ninja | PSP      | [x]       |
+| Mega Man / Sonic / Fighters                       | Hack             |             |          |           |
+| Nintendo Handheld                                 | Homebrew         | Loopover    | NDS      | [x]       |
+| Pokémon / Donkey Kong Country / Hacks feat. Duos  | Hack             |             |          |           |
+| Colecovision / Intellivision / MagneVox Odyssey 2 | Homebrew         | Boobs       | MO2      |           |
+| Wildcard                                          | Hack             |             |          |           |
 
 
 # July
