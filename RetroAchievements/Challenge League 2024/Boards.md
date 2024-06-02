@@ -110,7 +110,7 @@ Ultima: Wildcard
 | Mega Man / Sonic / Fighters                       | Hack             |          |          |           |
 | Nintendo Handheld                                 | Homebrew         | Loopover | NDS      | [x]       |
 | Pokémon / Donkey Kong Country / Hacks feat. Duos  | Hack             |          |          |           |
-| Colecovision / Intellivision / MagneVox Odyssey 2 | Homebrew         |          |          |           |
+| Colecovision / Intellivision / MagneVox Odyssey 2 | Homebrew         | Boobs    | MO2      |           |
 | Wildcard                                          | Hack             |          |          |           |
 
 
