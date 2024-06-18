@@ -94,14 +94,6 @@ dg-publish: "true"
 
 ### Board Image
 # June
-Ratchet & Clank: Pokemon/Donkey Kong Country/Hacks featuring duos
-
-Dr. Light: Mega Man/Sonic/Fighters
-
-Cid Highwind: Final Fantasy (or other RPGs)/Zelda/Hacks featuring cameos
-
-Ultima: Wildcard
-
 
 | Hub                                               | Hack or Homebrew | Game                        | Platform | Completed |
 | ------------------------------------------------- | ---------------- | --------------------------- | -------- | --------- |
