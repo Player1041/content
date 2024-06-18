@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "18548411ff64e751",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Game Ideas/A Game About Knights/Ideas.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Game Ideas/Arcade Game/Ideas/Ideas.md",
+                "file": "Game Ideas/A Game About Knights/Ideas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Game Ideas/Arcade Game/Ideas/Ideas.md",
+                "file": "Game Ideas/A Game About Knights/Ideas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Game Ideas/Arcade Game/Ideas/Ideas.md"
+                "file": "Game Ideas/A Game About Knights/Ideas.md"
               }
             }
           },
@@ -188,12 +200,14 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "311cfe99d72cec7a",
+  "active": "18548411ff64e751",
   "lastOpenFiles": [
-    "College/Feedback.md",
     "Game Ideas/Arcade Game/Ideas/Ideas.md",
-    "Game Ideas",
+    "Game Ideas/A Game About Knights/Ideas.md",
+    "Game Ideas/A Game About Knights",
     "RetroAchievements/Challenge League 2024/Boards.md",
+    "College/Feedback.md",
+    "Game Ideas",
     "Player's Vault.md",
     "RetroAchievements/Challenge League 2024/Board Images/Board 4 May.png",
     "RetroAchievements/Challenge League 2024/Board Images/Board 2 February.png",
@@ -207,11 +221,9 @@
     "RetroAchievements",
     "Images",
     "General Notes",
-    "College",
     "Welcome.md",
     "create a link.md",
     "RetroAchievements/Test.md",
-    "Untitled.md",
     "obsidian-notes/Welcome.md"
   ]
 }

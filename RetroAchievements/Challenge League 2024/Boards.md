@@ -15,6 +15,7 @@ dg-publish: "true"
 | Wildcard      | Fruit Ninja                      | PSP      | [x]        |
 | Educational   | Bubble Guppies                   | NDS      |            |
 | Run and Gun   | Alien Syndrome                   | NES      |            |
+|               |                                  |          |            |
 ### Board Image
 
 <img src="https://i.vgy.me/dzgDHL.png" width=342 height=342>
