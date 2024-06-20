@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "8d79ddeb62ab0a81",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Game Ideas/Quest System/Quest IDs.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Game Ideas/A Game About Knights/Ideas.md",
+                "file": "Game Ideas/Quest System/Quest IDs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Game Ideas/A Game About Knights/Ideas.md",
+                "file": "Game Ideas/Quest System/Quest IDs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Game Ideas/A Game About Knights/Ideas.md"
+                "file": "Game Ideas/Quest System/Quest IDs.md"
               }
             }
           },
@@ -200,10 +212,12 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "18548411ff64e751",
+  "active": "8d79ddeb62ab0a81",
   "lastOpenFiles": [
-    "Game Ideas/Arcade Game/Ideas/Ideas.md",
     "Game Ideas/A Game About Knights/Ideas.md",
+    "Game Ideas/Quest System/Quest IDs.md",
+    "Game Ideas/Quest System",
+    "Game Ideas/Arcade Game/Ideas/Ideas.md",
     "Game Ideas/A Game About Knights",
     "RetroAchievements/Challenge League 2024/Boards.md",
     "College/Feedback.md",
@@ -220,7 +234,6 @@
     "RetroAchievements/Challenge League 2024",
     "RetroAchievements",
     "Images",
-    "General Notes",
     "Welcome.md",
     "create a link.md",
     "RetroAchievements/Test.md",
