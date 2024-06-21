@@ -15,6 +15,7 @@ dg-publish: "true"
 | Wildcard      | Fruit Ninja                      | PSP      | [x]        |
 | Educational   | Bubble Guppies                   | NDS      |            |
 | Run and Gun   | Alien Syndrome                   | NES      |            |
+|               |                                  |          |            |
 ### Board Image
 
 <img src="https://i.vgy.me/dzgDHL.png" width=342 height=342>
@@ -94,14 +95,6 @@ dg-publish: "true"
 
 ### Board Image
 # June
-Ratchet & Clank: Pokemon/Donkey Kong Country/Hacks featuring duos
-
-Dr. Light: Mega Man/Sonic/Fighters
-
-Cid Highwind: Final Fantasy (or other RPGs)/Zelda/Hacks featuring cameos
-
-Ultima: Wildcard
-
 
 | Hub                                               | Hack or Homebrew | Game                        | Platform | Completed |
 | ------------------------------------------------- | ---------------- | --------------------------- | -------- | --------- |

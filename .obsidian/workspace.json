@@ -18,8 +18,45 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "311cfe99d72cec7a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Game Ideas/Arcade Game/Ideas/Ideas.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "18548411ff64e751",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Game Ideas/A Game About Knights/Ideas.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8d79ddeb62ab0a81",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Game Ideas/Quest System/Quest IDs.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -85,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Player's Vault.md",
+                "file": "Game Ideas/Quest System/Quest IDs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Player's Vault.md",
+                "file": "Game Ideas/Quest System/Quest IDs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Player's Vault.md"
+                "file": "Game Ideas/Quest System/Quest IDs.md"
               }
             }
           },
@@ -175,9 +212,16 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "d83b03a1af9434a6",
+  "active": "8d79ddeb62ab0a81",
   "lastOpenFiles": [
+    "Game Ideas/A Game About Knights/Ideas.md",
+    "Game Ideas/Quest System/Quest IDs.md",
+    "Game Ideas/Quest System",
+    "Game Ideas/Arcade Game/Ideas/Ideas.md",
+    "Game Ideas/A Game About Knights",
     "RetroAchievements/Challenge League 2024/Boards.md",
+    "College/Feedback.md",
+    "Game Ideas",
     "Player's Vault.md",
     "RetroAchievements/Challenge League 2024/Board Images/Board 4 May.png",
     "RetroAchievements/Challenge League 2024/Board Images/Board 2 February.png",
@@ -190,15 +234,9 @@
     "RetroAchievements/Challenge League 2024",
     "RetroAchievements",
     "Images",
-    "General Notes",
-    "College/Feedback.md",
-    "College",
-    "Arcade Game/Ideas/Ideas.md",
-    "Arcade Game/Ideas",
     "Welcome.md",
     "create a link.md",
     "RetroAchievements/Test.md",
-    "Untitled.md",
     "obsidian-notes/Welcome.md"
   ]
 }
