@@ -8,24 +8,24 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f6805f253e809b99",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Arcade Game/Ideas/Ideas.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "254784f0e2278ab4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Ideas.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a84107ac21c94a42",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Ideas.md",
+            "file": "Untitled.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Ideas.md",
+            "file": "Untitled.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -135,7 +135,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Ideas.md"
+            "file": "Untitled.md"
           }
         }
       },
@@ -165,11 +165,28 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "254784f0e2278ab4",
+  "active": "a84107ac21c94a42",
   "lastOpenFiles": [
-    "Arcade Game/Ideas/Ideas.md",
     "Ideas.md",
-    "A Game About Knights",
+    "Untitled.md",
+    "Game Ideas/Quest System/Quest IDs.md",
+    "Game Ideas/A Game About Knights/Ideas.md",
+    "Game Ideas/Arcade Game/Ideas/Ideas.md",
+    "/RetroAchievements/Challenge League 2024/Boards.md",
+    "/Game Ideas/Quest System/Quest IDs.md",
+    "/Game Ideas/A Game About Knights/Ideas.md",
+    "/Game Ideas/Arcade Game/Ideas/Ideas.md",
+    "Game Ideas/Arcade Game/Ideas",
+    "Game Ideas/Quest System",
+    "Game Ideas/Arcade Game",
+    "Game Ideas/A Game About Knights",
+    "Game Ideas",
+    "/Game Ideas/Quest System",
+    "/Game Ideas/Arcade Game/Ideas",
+    "/Game Ideas/Arcade Game",
+    "/Game Ideas/A Game About Knights",
+    "/Game Ideas",
+    "Arcade Game/Ideas/Ideas.md",
     "Player's Vault.md",
     "College/Feedback.md",
     "RetroAchievements/Challenge League 2024/Boards.md"
