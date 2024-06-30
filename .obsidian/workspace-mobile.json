@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "RetroAchievements/Challenge League 2024/Boards.md",
+                "file": "02 - RetroAchievements/Challenge League 2024/Boards.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "RetroAchievements/Set Dev/Angry Birds.md",
+                "file": "Player's Vault.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "RetroAchievements/Set Dev/Angry Birds.md",
+            "file": "Player's Vault.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "RetroAchievements/Set Dev/Angry Birds.md",
+            "file": "Player's Vault.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -135,7 +135,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "RetroAchievements/Set Dev/Angry Birds.md"
+            "file": "Player's Vault.md"
           }
         }
       },
@@ -167,30 +167,30 @@
   },
   "active": "c4474d1f01ae6e24",
   "lastOpenFiles": [
+    "02 - RetroAchievements/Set Dev/Angry Birds.md",
+    "99 - Miscellaneous",
+    "06 - Work Related",
+    "05 - Passing Notes",
+    "04 - Notes to Recall",
+    "03 - Misc. Development",
+    "02 - RetroAchievements",
+    "01 - Games Development",
+    "00 - Map",
     "Player's Vault.md",
-    "RetroAchievements/Set Dev/Angry Birds.md",
     "Untitled.md",
     "Ideas.md",
-    "RetroAchievements/Challenge League 2024/Boards.md",
-    "RetroAchievements/Set Dev",
-    "Game Ideas/Quest System/Quest IDs.md",
-    "Toolkit/General Ideas.md",
+    "02 - RetroAchievements/Challenge League 2024/Boards.md",
+    "02 - RetroAchievements/Set Dev",
+    "01 - Games Development/Quest System/Quest IDs.md",
+    "03 - Misc. Development/Toolkit/General Ideas.md",
     "/Toolkit/General Ideas.md",
-    "Toolkit",
-    "/Toolkit",
-    "Game Ideas/A Game About Knights/Ideas.md",
-    "Game Ideas/Arcade Game/Ideas/Ideas.md",
+    "03 - Misc. Development/Toolkit",
+    "01 - Games Development/A Game About Knights/Ideas.md",
+    "01 - Games Development/Arcade Game/Ideas/Ideas.md",
     "/RetroAchievements/Challenge League 2024/Boards.md",
     "/Game Ideas/Quest System/Quest IDs.md",
     "/Game Ideas/A Game About Knights/Ideas.md",
     "/Game Ideas/Arcade Game/Ideas/Ideas.md",
-    "Game Ideas/Arcade Game/Ideas",
-    "Game Ideas/Quest System",
-    "Game Ideas/Arcade Game",
-    "Game Ideas/A Game About Knights",
-    "Game Ideas",
-    "/Game Ideas/Quest System",
-    "/Game Ideas/Arcade Game/Ideas",
     "Arcade Game/Ideas/Ideas.md",
     "College/Feedback.md"
   ]
