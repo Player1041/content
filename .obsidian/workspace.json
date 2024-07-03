@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "a1484cc40832972d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "bbb435cec2fb2ff3",
             "type": "leaf",
             "state": {
@@ -29,7 +41,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -95,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Player's Vault.md",
+                "file": "README.md.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Player's Vault.md",
+                "file": "README.md.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Player's Vault.md"
+                "file": "README.md.md"
               }
             }
           },
@@ -185,10 +198,11 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "d83b03a1af9434a6",
+  "active": "a1484cc40832972d",
   "lastOpenFiles": [
-    "03 - Misc. Development/Toolkit/General Ideas.md",
     "Player's Vault.md",
+    "README.md.md",
+    "03 - Misc. Development/Toolkit/General Ideas.md",
     "03 - Misc. Development/Toolkit",
     "03 - Misc. Development",
     "02 - RetroAchievements/Set Dev/Angry Birds.md",
@@ -208,7 +222,6 @@
     "01 - Games Development/Quest System",
     "01 - Games Development/Arcade Game",
     "01 - Games Development/A Game About Knights",
-    "Untitled.md",
     "Ideas.md",
     "Game Ideas/Quest System/Quest IDs.md",
     "Toolkit/General Ideas.md",
