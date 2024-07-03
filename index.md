@@ -6,7 +6,7 @@ aliases:
 date: Plugin.CreatedModifiedDate()
 ---
 
-<img src="https://img.shields.io/github/last-commit/player1041/notes?label>
+<img src="https://img.shields.io/github/last-commit/player1041/notes?label=Last%20Update">
 
 
 > [!tip] Welcome to Player's Vault!
