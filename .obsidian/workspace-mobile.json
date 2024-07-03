@@ -26,10 +26,10 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - Games Development/Hub.md",
+                "file": "02 - RetroAchievements/Hub.md",
                 "mode": "source",
                 "backlinks": true,
-                "source": false
+                "source": true
               }
             }
           }
@@ -108,7 +108,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "01 - Games Development/Hub.md",
+            "file": "02 - RetroAchievements/Hub.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "01 - Games Development/Hub.md",
+            "file": "02 - RetroAchievements/Hub.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -137,7 +137,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "01 - Games Development/Hub.md"
+            "file": "02 - RetroAchievements/Hub.md"
           }
         }
       },
@@ -167,6 +167,8 @@
   },
   "active": "65499f491c89cc28",
   "lastOpenFiles": [
+    "02 - RetroAchievements/Set Dev/Loopover.md",
+    "02 - RetroAchievements/Set Dev/Angry Birds.md",
     "02 - RetroAchievements/Hub.md",
     "01 - Games Development/Hub.md",
     "05 - Passing Notes/Hub.md",
@@ -176,7 +178,6 @@
     "06 - Work Related/Hub.md",
     "04 - Notes to Recall/Hub.md",
     "02 - RetroAchievements/Challenge League 2024/Boards.md",
-    "02 - RetroAchievements/Set Dev/Loopover.md",
     "/Home.md",
     "03 - Misc. Development/Hub.md",
     "/02 - RetroAchievements/Set Dev/Loopover.md",
@@ -191,7 +192,6 @@
     "Player's Vault.md",
     "99 - Misc",
     "/99 - Misc",
-    "02 - RetroAchievements/Set Dev/Angry Birds.md",
     "99 - Miscellaneous",
     "06 - Work Related",
     "05 - Passing Notes",
