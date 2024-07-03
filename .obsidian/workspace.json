@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "06 - Work Related/Hub.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "06 - Work Related/Hub.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "06 - Work Related/Hub.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "06 - Work Related/Hub.md"
               }
             }
           },
@@ -190,13 +190,13 @@
       "callout-manager:Insert Callout": false
     }
   },
-  "active": "c8269d36214e2658",
+  "active": "888908e4d17698a3",
   "lastOpenFiles": [
+    "Home.md",
     "02 - RetroAchievements/Set Dev/Angry Birds.md",
     "02 - RetroAchievements/Hub.md",
     "03 - Misc. Development/Toolkit/General Ideas.md",
     "Untitled Kanban.md",
-    "Home.md",
     "05 - Passing Notes/Hub.md",
     "99 - Misc/Hub.md",
     "README.md.md",
