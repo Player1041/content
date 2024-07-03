@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md.md",
+                "file": "Player's Vault.md",
                 "mode": "source",
                 "source": false
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md.md",
+                "file": "Player's Vault.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md.md",
+                "file": "Player's Vault.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md.md"
+                "file": "Player's Vault.md"
               }
             }
           },
@@ -200,8 +200,8 @@
   },
   "active": "a1484cc40832972d",
   "lastOpenFiles": [
-    "Player's Vault.md",
     "README.md.md",
+    "Player's Vault.md",
     "03 - Misc. Development/Toolkit/General Ideas.md",
     "03 - Misc. Development/Toolkit",
     "03 - Misc. Development",
