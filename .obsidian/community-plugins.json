@@ -1,17 +1,5 @@
 [
   "obsidian-git",
   "obsidian-excalidraw-plugin",
-  "calendar",
-  "table-editor-obsidian",
-  "dataview",
-  "obsidian-icon-folder",
-  "obsidian-kanban",
-  "quickadd",
-  "obsidian-style-settings",
-  "obsidian-tasks-plugin",
-  "templater-obsidian",
-  "tag-wrangler",
-  "nldates-obsidian",
-  "obsidian-quickshare",
-  "digitalgarden"
+  "obsidian-icon-folder"
 ]

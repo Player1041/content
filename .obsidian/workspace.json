@@ -161,14 +161,6 @@
             }
           },
           {
-            "id": "c91f00b77e8d49f6",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
             "id": "28c43fc712f86767",
             "type": "leaf",
             "state": {
@@ -198,7 +190,7 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "a1484cc40832972d",
+  "active": "1cc3d600f14a8103",
   "lastOpenFiles": [
     "README.md.md",
     "Player's Vault.md",
