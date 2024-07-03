@@ -8,24 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d84787d5f33a81d3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "5d88ea22d6855f74",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05 - Passing Notes/Hub.md",
+                "file": "Home.md",
                 "mode": "source",
                 "source": false
               }
@@ -38,6 +26,18 @@
               "type": "markdown",
               "state": {
                 "file": "99 - Misc/Hub.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c8269d36214e2658",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02 - RetroAchievements/Set Dev/Angry Birds.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "99 - Misc/Hub.md",
+                "file": "02 - RetroAchievements/Set Dev/Angry Birds.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "99 - Misc/Hub.md",
+                "file": "02 - RetroAchievements/Set Dev/Angry Birds.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "99 - Misc/Hub.md"
+                "file": "02 - RetroAchievements/Set Dev/Angry Birds.md"
               }
             }
           },
@@ -185,25 +185,28 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-kanban:Create new board": false
     }
   },
-  "active": "4fed2c9c7851f3a9",
+  "active": "888908e4d17698a3",
   "lastOpenFiles": [
+    "02 - RetroAchievements/Hub.md",
+    "03 - Misc. Development/Toolkit/General Ideas.md",
+    "Untitled Kanban.md",
+    "Home.md",
     "05 - Passing Notes/Hub.md",
     "99 - Misc/Hub.md",
+    "README.md.md",
     "99 - Misc",
     "03 - Misc. Development/Hub.md",
-    "02 - RetroAchievements/Hub.md",
     "01 - Games Development/Hub.md",
     "04 - Notes to Recall/Hub.md",
     "06 - Work Related/Hub.md",
-    "README.md.md",
     "Player's Vault.md",
     "06 - Work Related",
     "05 - Passing Notes",
     "04 - Notes to Recall",
-    "03 - Misc. Development/Toolkit/General Ideas.md",
     "03 - Misc. Development/Toolkit",
     "03 - Misc. Development",
     "02 - RetroAchievements/Set Dev/Angry Birds.md",
@@ -231,8 +234,6 @@
     "RetroAchievements/Challenge League 2024/Board Images/Board 3 March.png",
     "RetroAchievements/Challenge League 2024/Board Images/Board 1 January.png",
     "Welcome.md",
-    "create a link.md",
-    "RetroAchievements/Test.md",
-    "obsidian-notes/Welcome.md"
+    "create a link.md"
   ]
 }
