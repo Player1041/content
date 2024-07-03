@@ -1,4 +1,14 @@
+---
+title: Player's Vault
+aliases:
+  - home
+  - root
+date: Plugin.CreatedModifiedDate()
+---
 
+
+> [!tip] Welcome to Player's Vault!
+> This is where I will put all of my notes and guides about various things such as RetroAchievements, Unreal Engine 5 devlogs, and general notes.
 
 > [!info]
 > [[01 - Games Development/Hub|Games Development]]
@@ -8,3 +18,6 @@
 [[05 - Passing Notes/Hub|Passing Notes]]
 [[06 - Work Related/Hub|Work Related]]
 [[99 - Misc/Hub|Misc.]]
+
+
+
