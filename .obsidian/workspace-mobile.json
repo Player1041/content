@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 - RetroAchievements/Hub.md",
+                "file": "Index.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -95,20 +95,12 @@
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "8863662e82bda5e8",
-        "type": "leaf",
-        "state": {
-          "type": "calendar",
-          "state": {}
-        }
-      },
-      {
         "id": "b608f681a1b51bf8",
         "type": "leaf",
         "state": {
           "type": "backlink",
           "state": {
-            "file": "02 - RetroAchievements/Hub.md",
+            "file": "Index.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -125,7 +117,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "02 - RetroAchievements/Hub.md",
+            "file": "Index.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -137,7 +129,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "02 - RetroAchievements/Hub.md"
+            "file": "Index.md"
           }
         }
       },
@@ -167,13 +159,13 @@
   },
   "active": "65499f491c89cc28",
   "lastOpenFiles": [
-    "02 - RetroAchievements/Set Dev/Loopover.md",
     "02 - RetroAchievements/Set Dev/Angry Birds.md",
+    "02 - RetroAchievements/Set Dev/Loopover.md",
     "02 - RetroAchievements/Hub.md",
     "01 - Games Development/Hub.md",
     "05 - Passing Notes/Hub.md",
-    "Home.md",
-    "Todo Closing.md",
+    "Index.md",
+    "06 - Work Related/Todo Closing.md",
     "99 - Misc/Hub.md",
     "06 - Work Related/Hub.md",
     "04 - Notes to Recall/Hub.md",

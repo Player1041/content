@@ -1,0 +1,12 @@
+- [ ] Condiment unit
+- [ ] Glass
+- [ ] Pop fridge
+- [ ] Sandwich selector
+- [ ] Back bench
+- [ ] Bags
+- [ ] Wipe down shelves
+- [ ] Sweep
+- [ ] Mop
+- [ ] Get new tongs
+- [ ] Replace the turbo chef utensils
+- [ ] Restock machines
