@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 - RetroAchievements/Set Dev/Angry Birds.md",
+                "file": "Home.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02 - RetroAchievements/Set Dev/Angry Birds.md",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02 - RetroAchievements/Set Dev/Angry Birds.md",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02 - RetroAchievements/Set Dev/Angry Birds.md"
+                "file": "Home.md"
               }
             }
           },
@@ -186,11 +186,13 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "obsidian-kanban:Create new board": false
+      "obsidian-kanban:Create new board": false,
+      "callout-manager:Insert Callout": false
     }
   },
-  "active": "888908e4d17698a3",
+  "active": "c8269d36214e2658",
   "lastOpenFiles": [
+    "02 - RetroAchievements/Set Dev/Angry Birds.md",
     "02 - RetroAchievements/Hub.md",
     "03 - Misc. Development/Toolkit/General Ideas.md",
     "Untitled Kanban.md",
@@ -209,7 +211,6 @@
     "04 - Notes to Recall",
     "03 - Misc. Development/Toolkit",
     "03 - Misc. Development",
-    "02 - RetroAchievements/Set Dev/Angry Birds.md",
     "02 - RetroAchievements/Set Dev",
     "02 - RetroAchievements/Challenge League 2024/Boards.md",
     "02 - RetroAchievements/Challenge League 2024/Board Images/Board 4 May.png",

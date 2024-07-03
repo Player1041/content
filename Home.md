@@ -1,4 +1,7 @@
-[[01 - Games Development/Hub|Games Development]]
+
+
+> [!info]
+> [[01 - Games Development/Hub|Games Development]]
 [[02 - RetroAchievements/Hub|RetroAchievements]]
 [[03 - Misc. Development/Hub|Misc. Development]]
 [[04 - Notes to Recall/Hub|Notes to Recall]]
