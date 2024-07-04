@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 - RetroAchievements/Challenge League 2024/Boards.md",
+                "file": "index.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "02 - RetroAchievements/Challenge League 2024/Boards.md",
+            "file": "index.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "02 - RetroAchievements/Challenge League 2024/Boards.md",
+            "file": "index.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -115,7 +115,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "02 - RetroAchievements/Challenge League 2024/Boards.md"
+            "file": "index.md"
           }
         }
       },
@@ -145,9 +145,9 @@
   },
   "active": "a84107ac21c94a42",
   "lastOpenFiles": [
+    "02 - RetroAchievements/Challenge League 2024/Boards.md",
     "99 - Misc/Hub.md",
     "index.md",
-    "02 - RetroAchievements/Challenge League 2024/Boards.md",
     "02 - RetroAchievements/Challenge League 2024/Board Images/Board 1 January.png",
     "Index.md",
     "01 - Games Development/Hub.md",
