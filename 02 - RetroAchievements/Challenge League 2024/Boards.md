@@ -110,6 +110,16 @@ dg-publish: "true"
 # July
 
 
+| Generation     | Platform             | Game | Completed |
+| -------------- | -------------------- | ---- | --------- |
+| 2nd Generation | Magnavox Odyssey     |      |           |
+| 3rd Generation | Master System        |      |           |
+| 4th Generation | Game Boy             |      |           |
+| 5th Generation | Nintendo 64          |      |           |
+| 6th Generation | PlayStation 2        |      |           |
+| 7th Generation | PlayStation Portable |      |           |
+| Wildcard       | Pokémon Mini         |      |           |
+
 
 # August
 
