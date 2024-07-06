@@ -83,14 +83,14 @@ dg-publish: "true"
 
 ### Choices
 
-| Stage    | Game Series A    | Game Series B  | Game Series C    | Game | Platform | Completed |
-| -------- | ---------------- | -------------- | ---------------- | ---- | -------- | --------- |
-| 1        | Spyro the Dragon | Tomb Raider    | Grand Theft Auto |      |          |           |
-| 2        | Crash Bandicoot  | Castlevania    | Street Fighter   |      |          |           |
-| 3        | Yoshi            | Mortal Kombat  | Bomberman        |      |          |           |
-| 4        | Id Shooter       | Kingdom Hearts | Super Mario      |      |          |           |
-| 5        | Donkey Kong      | Pokémon        | Mega Man         |      |          |           |
-| Wildcard | N/A              | N/A            | N/A              |      |          |           |
+| Stage    | Game Series A    | Game Series B  | Game Series C    | Game                | Platform | Completed |
+| -------- | ---------------- | -------------- | ---------------- | ------------------- | -------- | --------- |
+| 1        | Spyro the Dragon | Tomb Raider    | Grand Theft Auto | Spyro the Dragon    | PSX      |           |
+| 2        | Crash Bandicoot  | Castlevania    | Street Fighter   | Crash Team Racing   | PSX      |           |
+| 3        | Yoshi            | Mortal Kombat  | Bomberman        | Yoshi's Topsy Turvy | GBA      |           |
+| 4        | Id Shooter       | Kingdom Hearts | Super Mario      | Super Mario Bros.   | NES      |           |
+| 5        | Donkey Kong      | Pokémon        | Mega Man         | Pokémon Ruby        | GBA      |           |
+| Wildcard | N/A              | N/A            | N/A              | Ratchet and Clank   | PS2      |           |
 
 
 ### Board Image
