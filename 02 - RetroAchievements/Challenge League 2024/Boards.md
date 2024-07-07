@@ -112,8 +112,8 @@ dg-publish: "true"
 
 | Generation     | Platform             | Game                | Completed |
 | -------------- | -------------------- | ------------------- | --------- |
-| 2nd Generation | Magnavox Odyssey     | Math-A-Magic + Echo |           |
-| 3rd Generation | Master System        | Tangram             |           |
+| 2nd Generation | Magnavox Odyssey     | Math-A-Magic + Echo | [x]       |
+| 3rd Generation | Master System        | Tangram             | [x]       |
 | 4th Generation | Game Boy             |                     |           |
 | 5th Generation | Nintendo 64          |                     |           |
 | 6th Generation | PlayStation 2        |                     |           |
