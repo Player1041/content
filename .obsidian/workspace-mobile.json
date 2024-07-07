@@ -13,14 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 - RetroAchievements/Challenge League 2024/Boards.md",
+                "file": "02 - RetroAchievements/Set Dev/Loopover.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4e99ff7f611cd31b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02 - RetroAchievements/Set Dev/Minesweeper - Master System.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +100,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "02 - RetroAchievements/Challenge League 2024/Boards.md",
+            "file": "02 - RetroAchievements/Set Dev/Minesweeper - Master System.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -103,7 +117,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "02 - RetroAchievements/Challenge League 2024/Boards.md",
+            "file": "02 - RetroAchievements/Set Dev/Minesweeper - Master System.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -115,7 +129,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "02 - RetroAchievements/Challenge League 2024/Boards.md"
+            "file": "02 - RetroAchievements/Set Dev/Minesweeper - Master System.md"
           }
         }
       },
@@ -140,21 +154,24 @@
       "command-palette:Open command palette": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "obsidian-kanban:Create new board": false,
-      "callout-manager:Insert Callout": false
+      "callout-manager:Insert Callout": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "a84107ac21c94a42",
+  "active": "5b169f2eaf3460be",
   "lastOpenFiles": [
+    "templates",
+    "02 - RetroAchievements/Set Dev/Loopover.md",
+    "02 - RetroAchievements/Set Dev/Minesweeper - Master System.md",
+    "02 - RetroAchievements/Challenge League 2024/Boards.md",
     "01 - Games Development/Quest System/Quest IDs.md",
     "index.md",
-    "02 - RetroAchievements/Challenge League 2024/Boards.md",
     "99 - Misc/Hub.md",
     "02 - RetroAchievements/Challenge League 2024/Board Images/Board 1 January.png",
     "Index.md",
     "01 - Games Development/Hub.md",
     "/index.md",
     "02 - RetroAchievements/Set Dev/Angry Birds.md",
-    "02 - RetroAchievements/Set Dev/Loopover.md",
     "02 - RetroAchievements/Hub.md",
     "05 - Passing Notes/Hub.md",
     "06 - Work Related/Todo Closing.md",
@@ -170,8 +187,6 @@
     "/05 - Passing Notes/Hub.md",
     "/04 - Notes to Recall/Hub.md",
     "/03 - Misc. Development/Hub.md",
-    "/01 - Games Development/Hub.md",
-    "Player's Vault.md",
     "99 - Misc",
     "/99 - Misc",
     "99 - Miscellaneous",
