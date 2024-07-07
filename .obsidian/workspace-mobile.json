@@ -32,9 +32,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d39d7cdd53d7c0e4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "templates/set design template.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -100,7 +113,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "02 - RetroAchievements/Set Dev/Minesweeper - Master System.md",
+            "file": "templates/set design template.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -117,7 +130,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "02 - RetroAchievements/Set Dev/Minesweeper - Master System.md",
+            "file": "templates/set design template.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -129,7 +142,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "02 - RetroAchievements/Set Dev/Minesweeper - Master System.md"
+            "file": "templates/set design template.md"
           }
         }
       },
@@ -158,11 +171,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "5b169f2eaf3460be",
+  "active": "d39d7cdd53d7c0e4",
   "lastOpenFiles": [
+    "02 - RetroAchievements/Set Dev/Minesweeper - Master System.md",
+    "templates/set design template.md",
     "templates",
     "02 - RetroAchievements/Set Dev/Loopover.md",
-    "02 - RetroAchievements/Set Dev/Minesweeper - Master System.md",
     "02 - RetroAchievements/Challenge League 2024/Boards.md",
     "01 - Games Development/Quest System/Quest IDs.md",
     "index.md",
@@ -195,7 +209,6 @@
     "04 - Notes to Recall",
     "03 - Misc. Development",
     "02 - RetroAchievements",
-    "01 - Games Development",
-    "00 - Map"
+    "01 - Games Development"
   ]
 }
