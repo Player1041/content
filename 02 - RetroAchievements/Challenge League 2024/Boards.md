@@ -6,16 +6,16 @@ dg-publish: "true"
 # January
 
 
-| Hub           | Game                             | Platform | Completed? |
-| ------------- | -------------------------------- | -------- | ---------- |
-| Kart Racer    | Moorhuhn Kart                    | PSX      | [x]        |
-| 2D Platformer | Drawn to Life: SpongeBob Edition | NDS      | [x]        |
-| 3D Fighting   | Skip #1                          | N/A      | [x]        |
-| Action        | Pac-Pix                          | MSX      |            |
-| Wildcard      | Fruit Ninja                      | PSP      | [x]        |
-| Educational   | Bubble Guppies                   | NDS      |            |
-| Run and Gun   | Alien Syndrome                   | NES      |            |
-|               |                                  |          |            |
+| Hub           | Game                                  | Platform | Completed? |
+| ------------- | ------------------------------------- | -------- | ---------- |
+| Kart Racer    | Moorhuhn Kart                         | PSX      | [x]        |
+| 2D Platformer | Drawn to Life: SpongeBob Edition      | NDS      | [x]        |
+| 3D Fighting   | Skip #1                               | N/A      | [x]        |
+| Action        | Pac-Pix                               | MSX      |            |
+| Wildcard      | Fruit Ninja                           | PSP      | [x]        |
+| Educational   | Sesame Street - Elmo's Letter Journey | PSX      | []         |
+| Run and Gun   | Alien Syndrome                        | NES      |            |
+|               |                                       |          |            |
 ### Board Image
 
 <img src="https://i.vgy.me/dzgDHL.png" width=342 height=342>
