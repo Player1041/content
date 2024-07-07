@@ -41,5 +41,69 @@ git remote add upstream https://github.com/jackyzha0/quartz.git
 
 To finish, run `npx quartz sync --no-pull` to do an initial push of your content to the repository.
 
-# Getting your site on GitHub pages
+# Getting your site on GitHub Pages
 
+In your local repository, create a new file called `/.github/workflows/deploy.yml`
+
+```yml
+name: Deploy Quartz site to GitHub Pages
+ 
+on:
+  push:
+    branches:
+      - v4
+ 
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+ 
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+ 
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Fetch all history for git info
+      - uses: actions/setup-node@v4
+      - name: Install Dependencies
+        run: npm ci
+      - name: Build Quartz
+        run: npx quartz build
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+ 
+  deploy:
+    needs: build
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+```
+
+Now that you have that file, head onto GitHub and go to your repository settings and head to the Pages tab. Under the Source tab, select GitHub Actions.
+
+Commit these changes by running `npx quartz sync` in your terminal.
+
+Your site should now be live at username.github.io/repo-name
+
+>[!note]
+>This guide assumes you just want to leave your site at username.github.io/repo-name, but if you want to put it on a custom domain, head to the official [Quartz documentation](https://quartz.jzhao.xyz/hosting#custom-domain) for more information.
+
+# Creating a separate content repository 
+
+In my use case, I wanted to create a second content repository.
+
+This guide assumes you already have a vault with notes in, synced to a GitHub repository.
+
+To begin, you have to 
