@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "templates/set design template.md",
+                "file": "02 - RetroAchievements/Set Dev/Minesweeper - Master System.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -113,7 +113,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "templates/set design template.md",
+            "file": "02 - RetroAchievements/Set Dev/Minesweeper - Master System.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -130,7 +130,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "templates/set design template.md",
+            "file": "02 - RetroAchievements/Set Dev/Minesweeper - Master System.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -142,7 +142,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "templates/set design template.md"
+            "file": "02 - RetroAchievements/Set Dev/Minesweeper - Master System.md"
           }
         }
       },
@@ -173,8 +173,8 @@
   },
   "active": "d39d7cdd53d7c0e4",
   "lastOpenFiles": [
-    "02 - RetroAchievements/Set Dev/Minesweeper - Master System.md",
     "templates/set design template.md",
+    "02 - RetroAchievements/Set Dev/Minesweeper - Master System.md",
     "templates",
     "02 - RetroAchievements/Set Dev/Loopover.md",
     "02 - RetroAchievements/Challenge League 2024/Boards.md",
