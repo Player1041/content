@@ -19,8 +19,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "96c07603dd6d35ac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02 - RetroAchievements/Set Dev/Goblin Kart Rescue.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02 - RetroAchievements/Set Dev/Minesweeper - Master System.md",
+                "file": "02 - RetroAchievements/Set Dev/Goblin Kart Rescue.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02 - RetroAchievements/Set Dev/Minesweeper - Master System.md",
+                "file": "02 - RetroAchievements/Set Dev/Goblin Kart Rescue.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02 - RetroAchievements/Set Dev/Minesweeper - Master System.md"
+                "file": "02 - RetroAchievements/Set Dev/Goblin Kart Rescue.md"
               }
             }
           },
@@ -166,11 +180,12 @@
       "callout-manager:Insert Callout": false
     }
   },
-  "active": "5d88ea22d6855f74",
+  "active": "96c07603dd6d35ac",
   "lastOpenFiles": [
+    "02 - RetroAchievements/Set Dev/Minesweeper - Master System.md",
+    "02 - RetroAchievements/Set Dev/Goblin Kart Rescue.md",
     "index.md",
     "Setup Quartz with GitHub Pages and an optional separate content repository.md",
-    "02 - RetroAchievements/Set Dev/Minesweeper - Master System.md",
     "().md",
     "02 - RetroAchievements/Hub.md",
     "templates/set design template.md",
@@ -207,7 +222,6 @@
     "01 - Games Development/Arcade Game/Ideas/Ideas.md",
     "01 - Games Development/A Game About Knights/Ideas.md",
     "Ideas.md",
-    "Game Ideas/Quest System/Quest IDs.md",
     "RetroAchievements/Challenge League 2024/Board Images/Board 4 May.png",
     "RetroAchievements/Challenge League 2024/Board Images/Board 2 February.png",
     "RetroAchievements/Challenge League 2024/Board Images/Board 3 March.png",
