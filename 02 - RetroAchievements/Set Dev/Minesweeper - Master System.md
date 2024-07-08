@@ -3,7 +3,6 @@ tags:
   - ra-set-dev
 ---
 
-
 Set Plan:
 Use 3 different board sizes, flagless and timer 
 
@@ -19,3 +18,8 @@ Use 3 different board sizes, flagless and timer
 |       | Win medium - timed    | Beat the medium board in under xx:xx      |        |      |     |
 |       | Win large - timed     | Beat the large board in under xx:xx       |        |      |     |
 |       |                       |                                           |        |      |     |
+
+Base breakdown
+difficulty = small
+tiles = 0
+game != in progress

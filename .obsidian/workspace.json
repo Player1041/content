@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Setup Quartz with GitHub Pages and an optional separate content repository.md",
+                "file": "02 - RetroAchievements/Set Dev/Minesweeper - Master System.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Setup Quartz with GitHub Pages and an optional separate content repository.md",
+                "file": "02 - RetroAchievements/Set Dev/Minesweeper - Master System.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Setup Quartz with GitHub Pages and an optional separate content repository.md",
+                "file": "02 - RetroAchievements/Set Dev/Minesweeper - Master System.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Setup Quartz with GitHub Pages and an optional separate content repository.md"
+                "file": "02 - RetroAchievements/Set Dev/Minesweeper - Master System.md"
               }
             }
           },
@@ -168,13 +168,13 @@
   },
   "active": "5d88ea22d6855f74",
   "lastOpenFiles": [
+    "index.md",
+    "Setup Quartz with GitHub Pages and an optional separate content repository.md",
     "02 - RetroAchievements/Set Dev/Minesweeper - Master System.md",
     "().md",
     "02 - RetroAchievements/Hub.md",
     "templates/set design template.md",
     "templates",
-    "index.md",
-    "Setup Quartz with GitHub Pages and an optional separate content repository.md",
     "06 - Work Related/Todo Closing.md",
     "03 - Misc. Development/Hub.md",
     "02 - RetroAchievements/Set Dev/Angry Birds.md",
