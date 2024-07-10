@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "06 - Work Related/Todo Closing.md",
+                "file": "02 - RetroAchievements/Challenge League 2024/Boards.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -126,7 +126,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "06 - Work Related/Todo Closing.md",
+            "file": "02 - RetroAchievements/Challenge League 2024/Boards.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -143,7 +143,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "06 - Work Related/Todo Closing.md",
+            "file": "02 - RetroAchievements/Challenge League 2024/Boards.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -155,7 +155,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "06 - Work Related/Todo Closing.md"
+            "file": "02 - RetroAchievements/Challenge League 2024/Boards.md"
           }
         }
       },
@@ -186,6 +186,7 @@
   },
   "active": "55c705cd88745fb4",
   "lastOpenFiles": [
+    "06 - Work Related/Todo Closing.md",
     "Setup Quartz with GitHub Pages and an optional separate content repository.md",
     "02 - RetroAchievements/Set Dev/Goblin Kart Rescue.md",
     "/02 - RetroAchievements/Set Dev/Goblin Kart Rescue.md",
@@ -206,7 +207,6 @@
     "02 - RetroAchievements/Set Dev/Angry Birds.md",
     "02 - RetroAchievements/Hub.md",
     "05 - Passing Notes/Hub.md",
-    "06 - Work Related/Todo Closing.md",
     "06 - Work Related/Hub.md",
     "04 - Notes to Recall/Hub.md",
     "/Home.md",
