@@ -1,6 +1,6 @@
 - [ ] Condiment unit
 - [ ] Glass
-- [ ] Pop fridge
+- [x] Pop fridge
 - [ ] Sandwich selector
 - [ ] Back bench
 - [ ] Bags

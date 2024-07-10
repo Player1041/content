@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Setup Quartz with GitHub Pages and an optional separate content repository.md",
+                "file": "06 - Work Related/Todo Closing.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -126,7 +126,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Setup Quartz with GitHub Pages and an optional separate content repository.md",
+            "file": "06 - Work Related/Todo Closing.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -143,7 +143,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Setup Quartz with GitHub Pages and an optional separate content repository.md",
+            "file": "06 - Work Related/Todo Closing.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -155,7 +155,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Setup Quartz with GitHub Pages and an optional separate content repository.md"
+            "file": "06 - Work Related/Todo Closing.md"
           }
         }
       },
@@ -186,8 +186,11 @@
   },
   "active": "55c705cd88745fb4",
   "lastOpenFiles": [
-    "().md",
     "Setup Quartz with GitHub Pages and an optional separate content repository.md",
+    "02 - RetroAchievements/Set Dev/Goblin Kart Rescue.md",
+    "/02 - RetroAchievements/Set Dev/Goblin Kart Rescue.md",
+    "/02 - RetroAchievements/Set Dev/Minesweeper - Master System.md",
+    "().md",
     "index.md",
     "02 - RetroAchievements/Challenge League 2024/Boards.md",
     "02 - RetroAchievements/Set Dev/Minesweeper - Master System.md",
@@ -211,9 +214,6 @@
     "/02 - RetroAchievements/Set Dev/Loopover.md",
     "/02 - RetroAchievements/Set Dev/Angry Birds.md",
     "/02 - RetroAchievements/Hub.md",
-    "/99 - Misc/Hub.md",
-    "/06 - Work Related/Hub.md",
-    "/05 - Passing Notes/Hub.md",
     "99 - Misc",
     "/99 - Misc",
     "99 - Miscellaneous",

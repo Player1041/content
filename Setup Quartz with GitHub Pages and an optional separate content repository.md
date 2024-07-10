@@ -1,6 +1,3 @@
----
-draft: "true"
----
 
 Before finding out about Quartz, I tried other note publishing methods. Because of this, I had a separate repository for all my notes and another for the site itself.
 
