@@ -1,6 +1,3 @@
----
-draft: "true"
----
 
 Before finding out about Quartz, I tried other note publishing methods. Because of this, I had a separate repository for all my notes and another for the site itself.
 
@@ -109,4 +106,6 @@ In my use case, I wanted to create a second content repository.
 
 This guide assumes you already have a vault with notes in, synced to a GitHub repository.
 
-To begin, you have to 
+To begin, open your terminal and navigate to the local root of your Quartz folder; this should be the folder containing other folders like `content`, `quartz` and `.github`.
+Now, run `git submodule add https://github.com/username/my-vault-repo`.
+Once you've run that, you have to then commit all changes and push to your repository. When you check GitHub repository for the site, you should see a submodule folder with the same name 
