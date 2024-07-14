@@ -110,15 +110,15 @@ dg-publish: "true"
 # July
 
 
-| Generation     | Platform             | Game                | Completed |
-| -------------- | -------------------- | ------------------- | --------- |
-| 2nd Generation | Magnavox Odyssey     | Math-A-Magic + Echo | [x]       |
-| 3rd Generation | Master System        | Tangram             | [x]       |
-| 4th Generation | Game Boy             |                     |           |
-| 5th Generation | Nintendo 64          |                     |           |
-| 6th Generation | PlayStation 2        |                     |           |
-| 7th Generation | PlayStation Portable |                     |           |
-| Wildcard       | Pokémon Mini         |                     |           |
+| Generation     | Platform             | Game                     | Completed |
+| -------------- | -------------------- | ------------------------ | --------- |
+| 2nd Generation | Magnavox Odyssey     | Math-A-Magic + Echo      | [x]       |
+| 3rd Generation | Master System        | Goblin Kart Rescue - Dev | [x]       |
+| 4th Generation | Game Boy             |                          |           |
+| 5th Generation | Nintendo 64          |                          |           |
+| 6th Generation | PlayStation 2        | Rayman Raving Rabbids    |           |
+| 7th Generation | PlayStation Portable | Gran Turismo             |           |
+| Wildcard       | Pokémon Mini         |                          |           |
 
 
 # August

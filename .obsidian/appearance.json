@@ -1,8 +1,8 @@
 {
   "accentColor": "",
-  "cssTheme": "Primary",
+  "cssTheme": "Typewriter",
   "enabledCssSnippets": [
     "CustomIcon-AutoGen"
   ],
-  "theme": "moonstone"
+  "theme": "system"
 }

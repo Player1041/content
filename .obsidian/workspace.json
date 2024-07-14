@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 - RetroAchievements/Set Dev/Goblin Kart Rescue.md",
+                "file": "02 - RetroAchievements/Challenge League 2024/Boards.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02 - RetroAchievements/Set Dev/Goblin Kart Rescue.md",
+                "file": "02 - RetroAchievements/Challenge League 2024/Boards.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02 - RetroAchievements/Set Dev/Goblin Kart Rescue.md",
+                "file": "02 - RetroAchievements/Challenge League 2024/Boards.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02 - RetroAchievements/Set Dev/Goblin Kart Rescue.md"
+                "file": "02 - RetroAchievements/Challenge League 2024/Boards.md"
               }
             }
           },
@@ -174,13 +174,18 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-kanban:Create new board": false,
+      "callout-manager:Insert Callout": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "96c07603dd6d35ac",
+  "active": "1cc3d600f14a8103",
   "lastOpenFiles": [
-    "02 - RetroAchievements/Set Dev/Minesweeper - Master System.md",
+    "02 - RetroAchievements/Challenge League 2024/Board Images/Board 2 February.png",
     "02 - RetroAchievements/Set Dev/Goblin Kart Rescue.md",
+    "02 - RetroAchievements/Set Dev/Minesweeper - Master System.md",
     "index.md",
     "Setup Quartz with GitHub Pages and an optional separate content repository.md",
     "().md",
@@ -212,13 +217,11 @@
     "02 - RetroAchievements/Challenge League 2024/Boards.md",
     "02 - RetroAchievements/Challenge League 2024/Board Images/Board 4 May.png",
     "02 - RetroAchievements/Challenge League 2024/Board Images/Board 3 March.png",
-    "02 - RetroAchievements/Challenge League 2024/Board Images/Board 2 February.png",
     "02 - RetroAchievements/Challenge League 2024/Board Images/Board 1 January.png",
     "02 - RetroAchievements/Challenge League 2024/Board Images",
     "02 - RetroAchievements/Challenge League 2024",
     "01 - Games Development/Arcade Game/Ideas/Ideas.md",
     "01 - Games Development/A Game About Knights/Ideas.md",
-    "Ideas.md",
     "RetroAchievements/Challenge League 2024/Board Images/Board 4 May.png",
     "RetroAchievements/Challenge League 2024/Board Images/Board 2 February.png",
     "RetroAchievements/Challenge League 2024/Board Images/Board 3 March.png",
