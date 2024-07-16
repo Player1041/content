@@ -1,8 +1,9 @@
 {
   "accentColor": "",
-  "cssTheme": "AnuPpuccin",
+  "cssTheme": "Things",
   "enabledCssSnippets": [
     "CustomIcon-AutoGen"
   ],
-  "theme": "moonstone"
+  "theme": "moonstone",
+  "nativeMenus": false
 }

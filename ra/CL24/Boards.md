@@ -1,8 +1,3 @@
----
-quickshare-date: 2024-05-29 21:49:50
-quickshare-url: https://noteshare.space/note/clwsavfcd2976901mwsb2txe12#+i6T2EpvW+KkL4Wipjyy9sMWeYuCSCYZwk7FYo0LXCc
-dg-publish: "true"
----
 # January
 
 
