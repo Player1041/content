@@ -151,8 +151,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -168,8 +167,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "0d5e600ca69e899b",
+  "active": "1cc3d600f14a8103",
   "lastOpenFiles": [
+    "New Text Document.txt",
     "ra/CL24/Boards.md",
     "ra/dev/Minesweeper.md",
     "ra/dev/Goblin Kart Rescue.md",
