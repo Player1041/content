@@ -1,6 +1,7 @@
 ---
 tags:
   - ra-set-dev
+  - master-system
 ---
 Game is broken by pressing reveal on revealed square repeatedly.
 Undevelopable

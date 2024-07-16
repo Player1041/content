@@ -13,14 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ra/Set Dev/Goblin Kart Rescue.md",
+                "file": "ra/dev/Goblin Kart Rescue.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0d5e600ca69e899b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ra/dev/Space Invaders Extreme.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ra/Set Dev/Goblin Kart Rescue.md",
+                "file": "ra/dev/Space Invaders Extreme.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ra/Set Dev/Goblin Kart Rescue.md",
+                "file": "ra/dev/Space Invaders Extreme.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ra/Set Dev/Goblin Kart Rescue.md"
+                "file": "ra/dev/Space Invaders Extreme.md"
               }
             }
           },
@@ -167,10 +181,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "96c07603dd6d35ac",
+  "active": "0d5e600ca69e899b",
   "lastOpenFiles": [
-    "ra/Set Dev/Minesweeper.md",
-    "ra/Set Dev/Goblin Kart Rescue.md",
+    "ra/dev/Minesweeper.md",
+    "ra/dev/Goblin Kart Rescue.md",
+    "ra/dev/Space Invaders Extreme.md",
     "ra/Set Dev/Loopover.md",
     "ra/Set Dev/Angry Birds.md",
     "index.md",
