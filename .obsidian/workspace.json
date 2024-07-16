@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ra/CL24/Boards.md",
+                "file": "index.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ra/CL24/Boards.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ra/CL24/Boards.md",
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ra/CL24/Boards.md"
+                "file": "index.md"
               }
             }
           },
@@ -170,13 +170,14 @@
   },
   "active": "0d5e600ca69e899b",
   "lastOpenFiles": [
+    "ra/CL24/Boards.md",
+    "ra/dev/Minesweeper.md",
+    "ra/dev/Goblin Kart Rescue.md",
     "ra/dev/Space Invaders Extreme.md",
     "guides/New Text Document.txt",
     "notes/New Text Document.txt",
     "notes/Untitled.md",
     "Untitled.canvas",
-    "ra/dev/Minesweeper.md",
-    "ra/dev/Goblin Kart Rescue.md",
     "ra/Set Dev/Loopover.md",
     "ra/Set Dev/Angry Birds.md",
     "index.md",
@@ -185,7 +186,6 @@
     "ra",
     "guides/quartz pages with separate content repo.md",
     "personal",
-    "ra/CL24/Boards.md",
     "guides",
     "dev/games",
     "dev",
