@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 - RetroAchievements/Challenge League 2024/Boards.md",
+                "file": "ra/Set Dev/Goblin Kart Rescue.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02 - RetroAchievements/Challenge League 2024/Boards.md",
+                "file": "ra/Set Dev/Goblin Kart Rescue.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02 - RetroAchievements/Challenge League 2024/Boards.md",
+                "file": "ra/Set Dev/Goblin Kart Rescue.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02 - RetroAchievements/Challenge League 2024/Boards.md"
+                "file": "ra/Set Dev/Goblin Kart Rescue.md"
               }
             }
           },
@@ -169,23 +169,30 @@
   },
   "active": "96c07603dd6d35ac",
   "lastOpenFiles": [
-    "02 - RetroAchievements/Set Dev/Minesweeper - Master System.md",
-    "02 - RetroAchievements/Challenge League 2024/Board Images/Board 2 February.png",
-    "02 - RetroAchievements/Set Dev/Goblin Kart Rescue.md",
+    "ra/Set Dev/Minesweeper.md",
+    "ra/Set Dev/Goblin Kart Rescue.md",
+    "ra/Set Dev/Loopover.md",
+    "ra/Set Dev/Angry Birds.md",
     "index.md",
-    "Setup Quartz with GitHub Pages and an optional separate content repository.md",
+    "personal/Todo Closing.md",
+    "notes",
+    "ra",
+    "guides/quartz pages with separate content repo.md",
+    "personal",
+    "ra/CL24/Boards.md",
+    "guides",
+    "dev/games",
+    "dev",
+    "ra/CL24/Board Images/Board 2 February.png",
     "().md",
     "02 - RetroAchievements/Hub.md",
     "templates/set design template.md",
     "templates",
-    "06 - Work Related/Todo Closing.md",
     "03 - Misc. Development/Hub.md",
-    "02 - RetroAchievements/Set Dev/Angry Birds.md",
     "Home.md",
     "99 - Misc/Hub.md",
-    "02 - RetroAchievements/Set Dev/Loopover.md",
     "01 - Games Development/Hub.md",
-    "01 - Games Development/Quest System/Quest IDs.md",
+    "dev/games/Quest System/Quest IDs.md",
     "06 - Work Related/Hub.md",
     "03 - Misc. Development/Toolkit/General Ideas.md",
     "Untitled Kanban.md",
@@ -196,18 +203,11 @@
     "Player's Vault.md",
     "06 - Work Related",
     "05 - Passing Notes",
-    "04 - Notes to Recall",
-    "03 - Misc. Development/Toolkit",
-    "03 - Misc. Development",
-    "02 - RetroAchievements/Set Dev",
-    "02 - RetroAchievements/Challenge League 2024/Boards.md",
-    "02 - RetroAchievements/Challenge League 2024/Board Images/Board 4 May.png",
-    "02 - RetroAchievements/Challenge League 2024/Board Images/Board 3 March.png",
-    "02 - RetroAchievements/Challenge League 2024/Board Images/Board 1 January.png",
-    "02 - RetroAchievements/Challenge League 2024/Board Images",
-    "02 - RetroAchievements/Challenge League 2024",
-    "01 - Games Development/Arcade Game/Ideas/Ideas.md",
-    "01 - Games Development/A Game About Knights/Ideas.md",
+    "ra/CL24/Board Images/Board 4 May.png",
+    "ra/CL24/Board Images/Board 3 March.png",
+    "ra/CL24/Board Images/Board 1 January.png",
+    "dev/games/Arcade Game/Ideas/Ideas.md",
+    "dev/games/A Game About Knights/Ideas.md",
     "RetroAchievements/Challenge League 2024/Board Images/Board 4 May.png",
     "RetroAchievements/Challenge League 2024/Board Images/Board 2 February.png",
     "RetroAchievements/Challenge League 2024/Board Images/Board 3 March.png",

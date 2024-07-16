@@ -2,6 +2,8 @@
 tags:
   - ra-set-dev
 ---
+Game is broken by pressing reveal on revealed square repeatedly.
+Undevelopable
 
 Set Plan:
 Use 3 different board sizes, flagless and timer 
