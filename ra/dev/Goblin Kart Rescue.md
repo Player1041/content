@@ -3,6 +3,8 @@ tags:
   - ra-set-dev
   - master-system
 ---
+Game breaks on genesis plus 
+
 There is 3 modes shown to the player off the bat.
 Story Mode 
 Time Attack
