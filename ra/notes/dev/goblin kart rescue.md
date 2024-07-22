@@ -2,6 +2,7 @@
 tags:
   - ra-set-dev
   - master-system
+title: Goblin Kart Rescue
 ---
 Game breaks on genesis plus 
 

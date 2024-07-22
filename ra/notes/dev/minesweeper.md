@@ -2,6 +2,7 @@
 tags:
   - ra-set-dev
   - master-system
+title: Minesweeper
 ---
 Game is broken by pressing reveal on revealed square repeatedly.
 Undevelopable
