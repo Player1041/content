@@ -11,5 +11,9 @@ I have completed 1/9 boards so far.
 
 # Board 1 - January
 ## Image
+![[Board 1 January.png]]
 
-## 
+## Games Selected
+
+**Kart Racing** - Moorhuhn Kart - PSX - Complete Date - Finish Time
+**2D Platforming** - Drawn to Life: SpongeBob Edition - NDS - Complete Date - Finish Time
