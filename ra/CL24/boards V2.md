@@ -12,9 +12,15 @@ I have completed 1/9 boards so far.
 # Board 1 - January
 ## Image
 
-![[Board 1 January.png]]
+![[Board 1 January.png | 250x250]]
 
 ## Games Selected
 
-**Kart Racing** - Moorhuhn Kart - PSX - Complete Date - Finish Time
-**2D Platforming** - Drawn to Life: SpongeBob Edition - NDS - Complete Date - Finish Time
+**Kart Racing** - Moorhuhn Kart - PSX - 9th January - 2h 44m
+**2D Platforming** - Drawn to Life: SpongeBob Edition - NDS - C
+**3D Fighting** - Skipped - N/A - N/A - N/A
+**Action** - 
+**Wildcard** -
+**Educational** -
+**Run and Gun** -
+
