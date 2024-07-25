@@ -11,6 +11,7 @@ I have completed 1/9 boards so far.
 
 # Board 1 - January
 ## Image
+
 ![[Board 1 January.png]]
 
 ## Games Selected
