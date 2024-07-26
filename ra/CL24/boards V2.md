@@ -26,12 +26,13 @@ I have completed 1/9 boards so far.
 **The House of the Dead 2** - Dreamcast
 **Roll Away** - PSX
 
-
 ## Personal Wishlist
 **The Simpsons: Hit & Run** - PS2
 **Half Life** - PS2
 **Viewtiful Joe** - GameCube
-Disney's Mickey 
+**Magical Mirror featuring Mickey Mouse** - GameCube
+**Arcade Bowling** - DSi
+**Half-Life** - PS2
 
 
 # Board 1 - January
