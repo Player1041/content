@@ -51,14 +51,13 @@ I have completed 1/9 boards so far.
 - [ ] **Run and Gun** -
 
 ~~~dataviewjs
-const headers = dv.current().file.header
+const headers = dv.current().file.header;
 // Get all tasks under a specific header
 const tasks = dv.current().file.tasks.where((t) => t.section.subpath == "Board 1 Games");
 // Get only the completed tasks
 const completed = tasks.where((t) => t.completed);
 // Output to desired string format
-choice(
-dv.paragraph("**" + completed.length + "/" + tasks.length + " completed**")
+choice(tasks.where((t) => t.fullyCompleted, "Fully Completed", dv.paragraph("**" + completed.length + "/" + tasks.length + "completed**");
 ~~~
 
 # Board 2 - February
