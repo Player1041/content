@@ -42,7 +42,7 @@ I have completed 1/9 boards so far.
 ![[b1j.png | 250]]
 
 ## Games
-- [ ] **Kart Racing** - Moorhuhn Kart - PSX - 9th January - 2h 44m
+- [x] **Kart Racing** - Moorhuhn Kart - PSX - 9th January - 2h 44m
 - [ ] **2D Platforming** - Drawn to Life: SpongeBob Edition - NDS - 29th February - 11h 45m
 - [ ] **3D Fighting** - Skipped - N/A - N/A - N/A
 - [ ] **Action** - 
@@ -50,7 +50,15 @@ I have completed 1/9 boards so far.
 - [ ] **Educational** -
 - [ ] **Run and Gun** -
 
-`$=dv.paragraph("**" + dv.current().file.tasks.where((t) => t.completed).length + "/" + dv.current().file.tasks.length + " completed**")`
+~~~dataviewjs
+const headers = dv.current().file.header
+// Get all tasks under a specific header
+const tasks = dv.current().file.tasks.where((t) => t.section.subpath == "Games");
+// Get only the completed tasks
+const completed = tasks.where((t) => t.completed);
+// Output to desired string format
+dv.paragraph("**" + completed.length + "/" + tasks.length + " completed**")
+~~~
 
 # Board 2 - February
 ### Theme: [Protagonist](https://retroachievements.org/game/5962)
