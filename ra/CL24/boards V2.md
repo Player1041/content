@@ -118,28 +118,33 @@ I have completed 1/9 boards so far.
 ## Image
 
 ![[b5j.png|250]]
-Slippy is at Fovoham, Dr. Light is at Lesalia, Cid is at Zeltennia, Lucca is at Limberry, Gordon is at Lionel, and Ratchet is at Gallione. Ultima is at the airship graveyard
+**Slippy** - Fovoham
+**Lesalia** - Dr. Light
+**Zeltennia** - Cid 
+**Limberry** - Lucca
+**Lionel** - Gordon
+**Airship Graveyard** - Ultima
 ## Games
 
-**Cid**
-- Final Fantasy
-- Zelda
-- Hacks feat. Cameos
-**Sony Consoles** -
-**Dr. Light**
-- Mega Man
-- Sonic
-- Fighters
-**Nintendo Handheld**
-**Ratchet**
-- Pokémon
-- Donkey Kong Country
-- Hacks feat. Duos
-**console title** -
-- Colecovision
-- Intellivision
-- Magnevox Odyssey 2
-**Wildcard**
+- [ ] **H - Cid**
+	- Final Fantasy
+	- Zelda
+	- Hacks feat. Cameos
+- [ ] **HB - Sony Consoles** -
+- [ ] **H - Dr. Light**
+	- Mega Man
+	- Sonic
+	- Fighters
+- [ ] **HB - Nintendo Handheld**
+- [ ] **H - Ratchet**
+	- Pokémon
+	- Donkey Kong Country
+	- Hacks feat. Duos
+- [ ] **HB- console title** -
+	- Colecovision
+	- Intellivision
+	- Magnevox Odyssey 2
+- [ ] **H - Ultima Wildcard**
 
 # Board 6 - July
 ## Theme: [Console Generations](https://retroachievements.org/gameList.php)
