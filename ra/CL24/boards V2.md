@@ -41,7 +41,7 @@ I have completed 1/9 boards so far.
 
 ![[b1j.png | 250]]
 
-## Games
+## Board 1 Games
 - [x] **Kart Racing** - Moorhuhn Kart - PSX - 9th January - 2h 44m
 - [ ] **2D Platforming** - Drawn to Life: SpongeBob Edition - NDS - 29th February - 11h 45m
 - [ ] **3D Fighting** - Skipped - N/A - N/A - N/A
@@ -53,11 +53,14 @@ I have completed 1/9 boards so far.
 ~~~dataviewjs
 const headers = dv.current().file.header
 // Get all tasks under a specific header
-const tasks = dv.current().file.tasks.where((t) => t.section.subpath == "Games");
+const tasks = dv.current().file.tasks.where((t) => t.section.subpath == "Board 1 Games");
 // Get only the completed tasks
 const completed = tasks.where((t) => t.completed);
 // Output to desired string format
-dv.paragraph("**" + completed.length + "/" + tasks.length + " completed**")
+if tasks.where((t => t.fullyCompleted)):
+    dv.paragraph("ween");
+else:
+	dv.paragraph("**" + completed.length + "/" + tasks.length + " completed**")
 ~~~
 
 # Board 2 - February
