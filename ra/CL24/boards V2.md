@@ -12,11 +12,17 @@ I have completed 1/9 boards so far.
 # Games to Assign
 ## Suggestions
 **The Incredible Hulk: Ultimate Destruction** - PS2
+**Katamari Damacy** - PS2
 **Ys: The Oath in Felghana** - PSP
+**Mr. Karaoshi** - PSP
+**Archer Maclean's Mercury** - PSP
+**Dr. Mini Games** - PSP
+**Hungry Giraffe** - PSP (I'm mastering this no doubts)
+**Black Rock Shooter: The Game** - PSP
+**Platypus** - PSP
 
 ## Personal Wishlist
 **The Simpsons: Hit & Run** - PS2
-**Katamari Damacy** - PS2
 
 
 # Board 1 - January
