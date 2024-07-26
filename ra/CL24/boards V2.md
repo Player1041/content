@@ -29,6 +29,9 @@ I have completed 1/9 boards so far.
 
 ## Personal Wishlist
 **The Simpsons: Hit & Run** - PS2
+**Half Life** - PS2
+**Viewtiful Joe** - GameCube
+Disney's Mickey 
 
 
 # Board 1 - January
@@ -36,8 +39,7 @@ I have completed 1/9 boards so far.
 
 ![[Board 1 January.png | 250x250]]
 
-## Games Selected
-
+## Games
 - [x] **Kart Racing** - Moorhuhn Kart - PSX - 9th January - 2h 44m
 - [x] **2D Platforming** - Drawn to Life: SpongeBob Edition - NDS - 29th February - 11h 45m
 - [x] **3D Fighting** - Skipped - N/A - N/A - N/A
@@ -61,4 +63,14 @@ I have completed 1/9 boards so far.
 - [ ] **Detective** -
 - [ ] **Female** -
 - [x] **Wildcard** - Cut the Rope - DSi - 15th February - ?h ?m
+
+# Board 3 - March
+## Image
+![[Board 3 March.png|340x200]]
+## Games
+**Cameo/Crossover** - Konami Krazy Racers - GBA - 28th May - ?h ?m
+**Post-Apocalyptic** - Skipped - N/A - N/A - N/A
+**Canines** - Wappy Dog - DS - 20th April - 4/5h 0m
+**Wildcard Portal** - Hello Kitty no Magical Museum - GBC - 6th March - 28m
+**Wildcard Dracula** - Looney Tunes: Space Race - Dreamcast - 3rd March - 4/5h 0m
 
