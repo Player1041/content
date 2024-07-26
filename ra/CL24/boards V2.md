@@ -9,6 +9,9 @@ Challenge League: Ticket to the Universe is an event run on [RetroAchievements](
 # My Current Progress
 I have completed 1/9 boards so far.
 
+# Suggested Games
+**The Incredible Hulk: Ultimate Destruction** - PS2
+
 # Board 1 - January
 ## Image
 
