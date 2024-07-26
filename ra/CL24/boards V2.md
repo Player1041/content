@@ -9,8 +9,15 @@ Challenge League: Ticket to the Universe is an event run on [RetroAchievements](
 # My Current Progress
 I have completed 1/9 boards so far.
 
-# Suggested Games
+# Games to Assign
+## Suggestions
 **The Incredible Hulk: Ultimate Destruction** - PS2
+**Ys: The Oath in Felghana** - PSP
+
+## Personal Wishlist
+**The Simpsons: Hit & Run** - PS2
+**Katamari Damacy** - PS2
+
 
 # Board 1 - January
 ## Image
