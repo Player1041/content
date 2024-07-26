@@ -1,12 +1,12 @@
-- [x] Oasis Summer
-- [x] Dr Pepper
+- [ ] Oasis Summer
+- [ ] Dr Pepper
 - [ ] Fanta fruit twist
 - [ ] coke zero
 - [ ] full fat coke
-- [x] Cherry coke
-- [x] Irn bru
+- [ ] Cherry coke
+- [ ] Irn bru
 - [ ] lucozade original
 - [ ] red bull
-- [x] mango and passionfruit
-
+- [ ] mango and passionfruit
+- [ ] sparkling lemonade
 

@@ -57,10 +57,8 @@ const tasks = dv.current().file.tasks.where((t) => t.section.subpath == "Board 1
 // Get only the completed tasks
 const completed = tasks.where((t) => t.completed);
 // Output to desired string format
-if tasks.where((t => t.fullyCompleted)):
-    dv.paragraph("ween");
-else:
-	dv.paragraph("**" + completed.length + "/" + tasks.length + " completed**")
+choice(
+dv.paragraph("**" + completed.length + "/" + tasks.length + " completed**")
 ~~~
 
 # Board 2 - February
