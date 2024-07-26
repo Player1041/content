@@ -68,7 +68,7 @@ I have completed 1/9 boards so far.
 - [ ] **Wildcard** - Cut the Rope - DSi - 15th February - ?h ?m
 
 # Board 3 - March
-### Theme: [Themes]()
+### Theme: [Themes](https://retroachievements.org/game/5917)
 ## Image
 
 ![[b3m.png|340]]
@@ -81,7 +81,7 @@ I have completed 1/9 boards so far.
 - [ ] **Wildcard Dracula** - Looney Tunes: Space Race - Dreamcast - 3rd March - 4/5h 0m
 
 # Board 4 - May
-### Theme: [Series]()
+### Theme: [Series](https://retroachievements.org/game/5771)
 ## Image
 
 ![[b4m.png|350]]
@@ -114,16 +114,37 @@ I have completed 1/9 boards so far.
 - [ ] **Wildcard** - 
 
 # Board 5 - June
-### Theme: [Hacks & Homebrews]()
+### Theme: [Hacks](https://retroachievements.org/game/6225) & [Homebrews](https://retroachievements.org/game/2513)
 ## Image
 
 ![[b5j.png|250]]
-
+Slippy is at Fovoham, Dr. Light is at Lesalia, Cid is at Zeltennia, Lucca is at Limberry, Gordon is at Lionel, and Ratchet is at Gallione. Ultima is at the airship graveyard
 ## Games
 
+**Cid**
+- Final Fantasy
+- Zelda
+- Hacks feat. Cameos
+**Sony Consoles** -
+**Dr. Light**
+- Mega Man
+- Sonic
+- Fighters
+**Nintendo Handheld**
+**Ratchet**
+- Pokémon
+- Donkey Kong Country
+- Hacks feat. Duos
+**console title** -
+- Colecovision
+- Intellivision
+- Magnevox Odyssey 2
+**Wildcard**
+
 # Board 6 - July
-## Theme: [Console Generations]()
+## Theme: [Console Generations](https://retroachievements.org/gameList.php)
 ## Image
 
 ![[b6j.png|250]]
 
+## Games
