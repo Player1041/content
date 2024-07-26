@@ -8,6 +8,9 @@ Challenge League: Ticket to the Universe is an event run on [RetroAchievements](
 
 ## My Current Progress
 I have completed 1/9 boards so far.
+~~~dataviewjs
+const board1 =
+~~~
 
 # Games to Assign
 ## Suggestions
@@ -43,7 +46,7 @@ I have completed 1/9 boards so far.
 
 ## Board 1 Games
 - [x] **Kart Racing** - Moorhuhn Kart - PSX - 9th January - 2h 44m
-- [ ] **2D Platforming** - Drawn to Life: SpongeBob Edition - NDS - 29th February - 11h 45m
+- [x] **2D Platforming** - Drawn to Life: SpongeBob Edition - NDS - 29th February - 11h 45m
 - [ ] **3D Fighting** - Skipped - N/A - N/A - N/A
 - [ ] **Action** - 
 - [ ] **Wildcard** -
@@ -57,7 +60,10 @@ const tasks = dv.current().file.tasks.where((t) => t.section.subpath == "Board 1
 // Get only the completed tasks
 const completed = tasks.where((t) => t.completed);
 // Output to desired string format
-choice(tasks.where((t) => t.fullyCompleted, "Fully Completed", dv.paragraph("**" + completed.length + "/" + tasks.length + "completed**");
+if(tasks.length == completed.length)
+	dv.paragraph("**Fully Completed Board 1**");
+else
+	dv.paragraph("**" + completed.length + "/" + tasks.length + " completed**");
 ~~~
 
 # Board 2 - February
