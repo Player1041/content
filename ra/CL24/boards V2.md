@@ -40,3 +40,13 @@ I have completed 1/9 boards so far.
 ## Image
 
 ![[Board 2 February.png|340x250]]
+
+## Games
+**Thief** -
+**Alien** -
+**Wildcard** -
+**Clown** - Skipped - N/A - N/A - !LA
+**Detective** -
+**Female** -
+**Wildcard** - Cut the Rope - DSi - 15th February - ?h ?m
+
