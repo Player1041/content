@@ -3,7 +3,7 @@
 1 cherry
 
 18 sausage rolls
-4 steak
+3 steak
 3 vegan roll
 6 cheese
 3 veg
