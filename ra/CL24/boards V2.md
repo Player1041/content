@@ -20,6 +20,12 @@ I have completed 1/9 boards so far.
 **Hungry Giraffe** - PSP (I'm mastering this no doubts)
 **Black Rock Shooter: The Game** - PSP
 **Platypus** - PSP
+**Widgets Odyssey** - PSP
+**Widgets Odyssey 2** - PSP
+**Coraline** - DS
+**The House of the Dead 2** - Dreamcast
+**Roll Away** - PSX
+
 
 ## Personal Wishlist
 **The Simpsons: Hit & Run** - PS2
@@ -33,14 +39,14 @@ I have completed 1/9 boards so far.
 ## Games Selected
 
 - [x] **Kart Racing** - Moorhuhn Kart - PSX - 9th January - 2h 44m
-- [ ] **2D Platforming** - Drawn to Life: SpongeBob Edition - NDS - 29th February - 11h 45m
-- [ ] **3D Fighting** - Skipped - N/A - N/A - N/A
+- [x] **2D Platforming** - Drawn to Life: SpongeBob Edition - NDS - 29th February - 11h 45m
+- [x] **3D Fighting** - Skipped - N/A - N/A - N/A
 - [ ] **Action** - 
 - [ ] **Wildcard** -
 - [ ] **Educational** -
 - [ ] **Run and Gun** -
 
-**1/7 Completed**
+`$=dv.paragraph("**" + dv.current().file.tasks.where((t) => t.completed).length + "/" + dv.current().file.tasks.length + " completed**")`
 
 # Board 2 - February
 ## Image
@@ -48,11 +54,11 @@ I have completed 1/9 boards so far.
 ![[Board 2 February.png|340x250]]
 
 ## Games
-**Thief** -
-**Alien** -
-**Wildcard** -
-**Clown** - Skipped - N/A - N/A - !LA
-**Detective** -
-**Female** -
-**Wildcard** - Cut the Rope - DSi - 15th February - ?h ?m
+- [ ] **Thief** -
+- [ ] **Alien** -
+- [ ] **Wildcard** -
+- [ ] **Clown** - Skipped - N/A - N/A - !LA
+- [ ] **Detective** -
+- [ ] **Female** -
+- [x] **Wildcard** - Cut the Rope - DSi - 15th February - ?h ?m
 
