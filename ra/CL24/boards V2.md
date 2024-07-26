@@ -7,24 +7,13 @@ tags:
 Challenge League: Ticket to the Universe is an event run on [RetroAchievements](https://retroachievements.org) in where you have a whole month to complete 9 "Choose Your Own Adventure" style game boards. Every month, a new board releases with a new theme to it. For example, Board 1 requires playing games within certain genres, whereas Board 2 requires playing games with protagonists within certain categories.
 
 ## My Current Progress
-I have completed 1/9 boards so far.
 
 
 ~~~dataviewjs
 const headers = dv.current().file.header;
-// Get all tasks under a specific header
-const tasks = dv.current().file.tasks.where((t) => t.section.subpath == "Board 1 Games");
-// Get only the completed tasks
-const completed = tasks.where((t) => t.completed);
-// Output to desired string format
-if(tasks.length == completed.length)
-	dv.paragraph("**Fully Completed Board 1**");
-else
-	dv.paragraph("**" + completed.length + "/" + tasks.length + " completed**");
-~~~
+const completedBoards = 0;
 
-~~~dataviewjs
-const headers = dv.current().file.header;
+// Get all boards
 const board1 = dv.current().file.tasks.where((t) => t.section.subpath == "Board 1 Games");
 const board2 = dv.current().file.tasks.where((t) => t.section.subpath == "Board 2 Games");
 const board3 = dv.current().file.tasks.where((t) => t.section.subpath == "Board 3 Games");
@@ -35,6 +24,7 @@ const board7 = dv.current().file.tasks.where((t) => t.section.subpath == "Board 
 const board8 = dv.current().file.tasks.where((t) => t.section.subpath == "Board 8 Games");
 const board9 = dv.current().file.tasks.where((t) => t.section.subpath == "Board 9 Games");
 
+// Get all tasks
 const completed1 = board1.where((t) => t.completed);
 const completed2 = board2.where((t) => t.completed);
 const completed3 = board3.where((t) => t.completed);
@@ -45,7 +35,15 @@ const completed7 = board7.where((t) => t.completed);
 const completed8 = board8.where((t) => t.completed);
 const completed9 = board9.where((t) => t.completed);
 
+if(board1.length == completed1.length)
+	completedBoards == completedBoards + 1;
 
+
+if(completedBoards == 1)
+	dv.paragraph("**🎉 Challenge League 2024 Completed! 🎉**");
+
+else
+	dv.paragraph("**I have completed " + completedBoards + "/9 boards.**");
 ~~~
 
 # Games to Assign
@@ -83,11 +81,11 @@ const completed9 = board9.where((t) => t.completed);
 ## Board 1 Games
 - [x] **Kart Racing** - Moorhuhn Kart - PSX - 9th January - 2h 44m
 - [x] **2D Platforming** - Drawn to Life: SpongeBob Edition - NDS - 29th February - 11h 45m
-- [ ] **3D Fighting** - Skipped - N/A - N/A - N/A
-- [ ] **Action** - 
-- [ ] **Wildcard** -
-- [ ] **Educational** -
-- [ ] **Run and Gun** -
+- [x] **3D Fighting** - Skipped - N/A - N/A - N/A
+- [x] **Action** - 
+- [x] **Wildcard** -
+- [x] **Educational** -
+- [x] **Run and Gun** -
 
 ~~~dataviewjs
 const headers = dv.current().file.header;
