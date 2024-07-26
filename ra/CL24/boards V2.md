@@ -109,25 +109,24 @@ I have completed 1/9 boards so far.
 |    Dragon Quest     | Dragon Quest \| Dragon Warrior - NES               | Dragon Quest V - SNES                                      | Dragon Quest VII \| Dragon Warrior VII - PSX                          | Dragon Quest VIII: Journey of the Cursed King - PS2                 | Dragon Quest Monsters: Joker - NDS               |
 
 ## Games
-
-**Stage 1**:
-- **Spyro the Dragon** - PSX - N/A - N/A
-- Tomb Raider
-- Grand Theft Auto
-**Stage 2**:
-- Crash Bandicoot
-- Castlevania
-- Street Fighter
-**Stage 3**:
-- Yoshi
-- Mortal Kombat
-- Bomberman 
-**Stage 4**:
-- Id Shooter
-- Kingdom Hearts
-- Super Mario
-**Stage 5**:
-- Donkey Kong
-- Pokémon
-- Mega Man
-**Wildcard** - 
+- [ ] **Stage 1** - Spyro the Dragon - PSX - N/A - N/A
+	- **Spyro the Dragon**
+	- Tomb Raider
+	- Grand Theft Auto
+- [ ] **Stage 2** - Crash Team Racing - PSX - N/A - N/A
+	- **Crash Bandicoot**
+	- Castlevania
+	- Street Fighter
+- [ ] **Stage 3** - Yoshi's Topsy Turvy - GBA - N/A - N/A
+	- **Yoshi**
+	- Mortal Kombat
+	- Bomberman 
+- [ ] **Stage 4** - Super Mario Bros. - NES - N/A - N/A
+	- Id Shooter
+	- Kingdom Hearts
+	- **Super Mario**
+- [ ] **Stage 5** - Pokémon Ruby - GBA - N/A - N/A
+	- Donkey Kong
+	- **Pokémon**
+	- Mega Man
+- [ ] **Wildcard** - 
