@@ -152,4 +152,6 @@ I have completed 1/9 boards so far.
 
 ![[b6j.png|250]]
 
+## Valid Console Generator
+[[![[b6allgen.png]]
 ## Games
