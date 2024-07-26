@@ -8,8 +8,44 @@ Challenge League: Ticket to the Universe is an event run on [RetroAchievements](
 
 ## My Current Progress
 I have completed 1/9 boards so far.
+
+
 ~~~dataviewjs
-const board1 =
+const headers = dv.current().file.header;
+// Get all tasks under a specific header
+const tasks = dv.current().file.tasks.where((t) => t.section.subpath == "Board 1 Games");
+// Get only the completed tasks
+const completed = tasks.where((t) => t.completed);
+// Output to desired string format
+if(tasks.length == completed.length)
+	dv.paragraph("**Fully Completed Board 1**");
+else
+	dv.paragraph("**" + completed.length + "/" + tasks.length + " completed**");
+~~~
+
+~~~dataviewjs
+const headers = dv.current().file.header;
+const board1 = dv.current().file.tasks.where((t) => t.section.subpath == "Board 1 Games");
+const board2 = dv.current().file.tasks.where((t) => t.section.subpath == "Board 2 Games");
+const board3 = dv.current().file.tasks.where((t) => t.section.subpath == "Board 3 Games");
+const board4 = dv.current().file.tasks.where((t) => t.section.subpath == "Board 4 Games");
+const board5 = dv.current().file.tasks.where((t) => t.section.subpath == "Board 5 Games");
+const board6 = dv.current().file.tasks.where((t) => t.section.subpath == "Board 6 Games");
+const board7 = dv.current().file.tasks.where((t) => t.section.subpath == "Board 7 Games");
+const board8 = dv.current().file.tasks.where((t) => t.section.subpath == "Board 8 Games");
+const board9 = dv.current().file.tasks.where((t) => t.section.subpath == "Board 9 Games");
+
+const completed1 = board1.where((t) => t.completed);
+const completed2 = board2.where((t) => t.completed);
+const completed3 = board3.where((t) => t.completed);
+const completed4 = board4.where((t) => t.completed);
+const completed5 = board5.where((t) => t.completed);
+const completed6 = board6.where((t) => t.completed);
+const completed7 = board7.where((t) => t.completed);
+const completed8 = board8.where((t) => t.completed);
+const completed9 = board9.where((t) => t.completed);
+
+
 ~~~
 
 # Games to Assign
