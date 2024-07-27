@@ -8,7 +8,7 @@ shaking text
 ‼‼
 
 That sounds complicated. I would recommend generating the list of checkboxes from the result of the API instead. Something like
-~~~dataviewjs
+~~~/*dataviewjs
 const results = await requestUrl(...);
 results.forEach(achievement => {
   if (/* mastered or beaten */) {
@@ -16,8 +16,19 @@ results.forEach(achievement => {
   } else {
     dv.paragraph(`- [ ] ${/* achievement details */}`);
   }
-});
+});*/
 ~~~
+
+## Game 2
+
+~~~dataviewjs
+const api_key = 'PVDnPdtXTW6QsC4gKI0OnYDiQJS0NjRb':
+let game_id = 0;
+const game_id_list = [
+1, // Sonic the Hedgehog - Incomplete
+2543, // Konami Krazy Racers - Beaten Hardcore
+
+
 
 ## Game
 
@@ -44,8 +55,10 @@ dv.paragraph(game_request.json);
 dv.span(game_request.json.HighestAwardKind);
 for(game_id of game_id_list)
 	await game_request = get_game_data(game_id, api_key, game_id_list);
-	if(game_request.json.HighestAwardKind == "mastered")
+		if(game_request.json.HighestAwardKind == "mastered") {
 		dv.span("Finished. " + game_id);
+	}
+
 	if(game_request.json.HighestAwardKind == "beaten-hardcore")
 		dv.span("Beaten. " + game_id);
 	else
