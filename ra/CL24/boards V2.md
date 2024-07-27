@@ -11,7 +11,7 @@ Challenge League: Ticket to the Universe is an event run on [RetroAchievements](
 
 ~~~dataviewjs
 const headers = dv.current().file.header;
-const completedBoards = 0;
+let completedBoards = 0;
 
 // Get all boards
 const board1 = dv.current().file.tasks.where((t) => t.section.subpath == "Board 1 Games");
@@ -36,10 +36,24 @@ const completed8 = board8.where((t) => t.completed);
 const completed9 = board9.where((t) => t.completed);
 
 if(board1.length == completed1.length)
-	completedBoards == completedBoards + 1;
-
-
-if(completedBoards == 1)
+	completedBoards++;
+if(board2.length == completed2.length)
+	completedBoards++;
+if(board3.length == completed3.length)
+	completedBoards++;
+if(board4.length == completed4.length)
+	completedBoards++;
+if(board5.length == completed5.length)
+	completedBoards++;
+if(board6.length == completed6.length)
+	completedBoards++;
+if(board7.length == completed7.length)
+	completedBoards++;
+if(board8.length == completed8.length)
+	completedBoards++;
+if(board9.length == completed9.length)
+	completedBoards++;
+if(completedBoards == 9)
 	dv.paragraph("**🎉 Challenge League 2024 Completed! 🎉**");
 
 else
@@ -106,7 +120,7 @@ else
 
 ![[b2f.png|280]]
 
-## Games
+## Board 2 Games
 - [ ] **Thief** -
 - [ ] **Alien** -
 - [ ] **Wildcard** -
@@ -115,19 +129,56 @@ else
 - [ ] **Female** -
 - [ ] **Wildcard** - Cut the Rope - DSi - 15th February - ?h ?m
 
+~~~dataviewjs
+const headers = dv.current().file.header;
+// Get all tasks under a specific header
+const tasks = dv.current().file.tasks.where((t) => t.section.subpath == "Board 2 Games");
+// Get only the completed tasks
+const completed = tasks.where((t) => t.completed);
+// Output to desired string format
+if(tasks.length == completed.length)
+	dv.paragraph("**Fully Completed Board 2**");
+else
+	dv.paragraph("**" + completed.length + "/" + tasks.length + " completed**");
+~~~
+~~~dataviewjs
+const headers = dv.current().file.header;
+// Get all tasks under a specific header
+const tasks = dv.current().file.tasks.where((t) => t.section.subpath == "Board 1 Games");
+// Get only the completed tasks
+const completed = tasks.where((t) => t.completed);
+// Output to desired string format
+if(tasks.length == completed.length)
+	dv.paragraph("**Fully Completed Board 1**");
+else
+	dv.paragraph("**" + completed.length + "/" + tasks.length + " completed**");
+~~~
+
 # Board 3 - March
 ### Theme: [Themes](https://retroachievements.org/game/5917)
 ## Image
 
 ![[b3m.png|340]]
 
-## Games
+## Board 3 Games
 - [ ] **Cameo/Crossover** - Konami Krazy Racers - GBA - 28th May - ?h ?m
 - [ ] **Post-Apocalyptic** - Skipped - N/A - N/A - N/A
 - [ ] **Canines** - Wappy Dog - DS - 20th April - 4/5h 0m
 - [ ] **Wildcard Portal** - Hello Kitty no Magical Museum - GBC - 6th March - 28m
 - [ ] **Wildcard Dracula** - Looney Tunes: Space Race - Dreamcast - 3rd March - 4/5h 0m
 
+~~~dataviewjs
+const headers = dv.current().file.header;
+// Get all tasks under a specific header
+const tasks = dv.current().file.tasks.where((t) => t.section.subpath == "Board 3 Games");
+// Get only the completed tasks
+const completed = tasks.where((t) => t.completed);
+// Output to desired string format
+if(tasks.length == completed.length)
+	dv.paragraph("**Fully Completed Board 3**");
+else
+	dv.paragraph("**" + completed.length + "/" + tasks.length + " completed**");
+~~~
 # Board 4 - May
 ### Theme: [Series](https://retroachievements.org/game/5771)
 ## Image
@@ -138,7 +189,7 @@ else
 
 ![[b4allgames.png|250]]
 
-## Games
+## Board 4 Games
 - [ ] **Stage 1** - Spyro the Dragon - PSX - N/A - N/A
 	- **Spyro the Dragon**
 	- Tomb Raider
@@ -161,18 +212,32 @@ else
 	- Mega Man
 - [ ] **Wildcard** - 
 
+~~~dataviewjs
+const headers = dv.current().file.header;
+// Get all tasks under a specific header
+const tasks = dv.current().file.tasks.where((t) => t.section.subpath == "Board 4 Games");
+// Get only the completed tasks
+const completed = tasks.where((t) => t.completed);
+// Output to desired string format
+if(tasks.length == completed.length)
+	dv.paragraph("**Fully Completed Board 4**");
+else
+	dv.paragraph("**" + completed.length + "/" + tasks.length + " completed**");
+~~~
 # Board 5 - June
 ### Theme: [Hacks](https://retroachievements.org/game/6225) & [Homebrews](https://retroachievements.org/game/2513)
 ## Image
 
 ![[b5j.png|250]]
+
 **Slippy** - Fovoham
 **Lesalia** - Dr. Light
 **Zeltennia** - Cid 
 **Limberry** - Lucca
 **Lionel** - Gordon
 **Airship Graveyard** - Ultima
-## Games
+
+## Board 5 Games
 
 - [ ] **H - Cid**
 	- Final Fantasy
@@ -194,12 +259,116 @@ else
 	- Magnevox Odyssey 2
 - [ ] **H - Ultima Wildcard**
 
+~~~dataviewjs
+const headers = dv.current().file.header;
+// Get all tasks under a specific header
+const tasks = dv.current().file.tasks.where((t) => t.section.subpath == "Board 5 Games");
+// Get only the completed tasks
+const completed = tasks.where((t) => t.completed);
+// Output to desired string format
+if(tasks.length == completed.length)
+	dv.paragraph("**Fully Completed Board 5**");
+else
+	dv.paragraph("**" + completed.length + "/" + tasks.length + " completed**");
+~~~
 # Board 6 - July
 ## Theme: [Console Generations](https://retroachievements.org/gameList.php)
 ## Image
 
 ![[b6j.png|250]]
 
-## Valid Console Generator
-[[![[b6allgen.png]]
-## Games
+## Console List
+![[b6allgen.png|200]]
+## Board 6 Games
+- [ ] 
+- [ ] 
+- [ ] 
+
+~~~dataviewjs
+const headers = dv.current().file.header;
+// Get all tasks under a specific header
+const tasks = dv.current().file.tasks.where((t) => t.section.subpath == "Board 6 Games");
+// Get only the completed tasks
+const completed = tasks.where((t) => t.completed);
+// Output to desired string format
+if(tasks.length == completed.length)
+	dv.paragraph("**Fully Completed Board 6**");
+else
+	dv.paragraph("**" + completed.length + "/" + tasks.length + " completed**");
+~~~
+# Board 7 - September
+## Theme:
+## Image
+
+![[]]
+
+## Console List
+
+## Board 7 Games
+- [ ] 
+- [ ] 
+- [ ] 
+
+~~~dataviewjs
+const headers = dv.current().file.header;
+// Get all tasks under a specific header
+const tasks = dv.current().file.tasks.where((t) => t.section.subpath == "Board 7 Games");
+// Get only the completed tasks
+const completed = tasks.where((t) => t.completed);
+// Output to desired string format
+if(tasks.length == completed.length)
+	dv.paragraph("**Fully Completed Board 7**");
+else
+	dv.paragraph("**" + completed.length + "/" + tasks.length + " completed**");
+~~~
+# Board 8 - October
+## Theme:
+## Image
+
+![[]]
+
+## Console List
+
+## Board 8 Games
+- [ ] 
+- [ ] 
+- [ ] 
+
+
+~~~dataviewjs
+const headers = dv.current().file.header;
+// Get all tasks under a specific header
+const tasks = dv.current().file.tasks.where((t) => t.section.subpath == "Board 8 Games");
+// Get only the completed tasks
+const completed = tasks.where((t) => t.completed);
+// Output to desired string format
+if(tasks.length == completed.length)
+	dv.paragraph("**Fully Completed Board 8**");
+else
+	dv.paragraph("**" + completed.length + "/" + tasks.length + " completed**");
+~~~
+# Board 9 - November
+## Theme:
+## Image
+
+![[]]
+
+## Console List
+
+## Board 9 Games
+- [ ] 
+- [ ] 
+- [ ] 
+
+~~~dataviewjs
+const headers = dv.current().file.header;
+// Get all tasks under a specific header
+const tasks = dv.current().file.tasks.where((t) => t.section.subpath == "Board 9 Games");
+// Get only the completed tasks
+const completed = tasks.where((t) => t.completed);
+// Output to desired string format
+if(tasks.length == completed.length)
+	dv.paragraph("**Fully Completed Board 9**");
+else
+	dv.paragraph("**" + completed.length + "/" + tasks.length + " completed**");
+~~~
