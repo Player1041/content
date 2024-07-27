@@ -24,19 +24,16 @@ results.forEach(achievement => {
 const api_key = 'PVDnPdtXTW6QsC4gKI0OnYDiQJS0NjRb';
 let id = 0;
 let game = 0;
-let game_data = null;
 const game_id_list = [
 1, // Sonic the Hedgehog - Genesis
 2, // Aladdin - Genesis
 3, // Streets of Rage 2 - Genesis
 30, // Jet Force Gemini - N64
+15626, // Gran Turismo - PSP
 28548 // Loopover - NDS
 ];
 let constructed_games = '';
-const game_data = await requestUrl('https://retroachievements.org/API/API_GetUserCompletionProgress.php?u=Player1041&z=player1041&y=' + api_key + '&c=150');
-let count = game_data.json.Total;
-for(id in game_id_list)
-	for(game in game_data.json.Results)
-		if(game_data.json.Results.0.GameID == id)
-			constructed_games = constructed_games.concat(" ", 
+const game_request = "https://retroachievements.org/API/API_GetGameInfoAndUserProgress.php?z=player1041&y=PVDnPdtXTW6QsC4gKI0OnYDiQJS0NjRb&g=" + id + "u=player1041"
+
+F
 ~~~
