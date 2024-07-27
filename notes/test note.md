@@ -36,7 +36,7 @@ for(game_id of game_id_list) {
 
 	if(game_data.json.HighestAwardKind == "mastered") {
 		//dv.paragraph("Mastered " + game_data.json.ID + " " + game_data.json.Title);
-		dv.paragraph(" - [x] **${game_data.json.Title}** - ${game_data.json.}")
+		dv.paragraph(" - [x] **${game_data.json.Title}** - ${game_data.json.ConsoleName}")
 	} 
 	if(game_data.json.HighestAwardKind == "beaten-hardcore") {
 		//dv.paragraph("Beaten Hardcore " + game_data.json.ID + " " + game_data.json.Title);
