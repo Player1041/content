@@ -68,6 +68,7 @@ const game_id_list = [
 ];
 let game_data = null;
 let games_completed = 0;
+let is_board1_complete = false;
 for(game_id of game_id_list) {
 	game_data = await requestUrl("https://retroachievements.org/API/API_GetGameInfoAndUserProgress.php?z=player1041&y=" + api_key + "&g=" + game_id + "&u=player1041&a=1");
 
