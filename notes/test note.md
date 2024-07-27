@@ -32,12 +32,13 @@ const game_id_list = [
 28548 // Loopover - NDS
 ];
 let constructed_games = '';
-const game_request = await requestUrl("https://retroachievements.org/API/API_GetGameInfoAndUserProgress.php?z=player1041&y=PVDnPdtXTW6QsC4gKI0OnYDiQJS0NjRb&g=" + game_id_list[id] + "&u=player1041");
+const game_request = await requestUrl("https://retroachievements.org/API/API_GetGameInfoAndUserProgress.php?z=player1041&y=PVDnPdtXTW6QsC4gKI0OnYDiQJS0NjRb&g=" + game_id_list[game] + "&u=player1041");
 
-for(let id in game_id_list)
+for(game in game_id_list)
 	if(game_request.json.UserCompletion == '100.00%')
-		dv.span("Finished. ")
+		dv.span("Finished. ");
 	else
-		dv.span("Incomplete. ")
-	id++;
+		dv.span("Incomplete. ");
+	game++;
+	
 ~~~
