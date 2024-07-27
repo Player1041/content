@@ -35,14 +35,15 @@ const game_id_list = [
 ];
 let constructed_games = '';
 
-const get_game_data = new function(
-'game_id', 'api_key', 'game_id_list', 'return RequestUrl("https://retroachievements.org/API/API_GetGameInfoAndUserProgress.php?z=player1041&y=" + api_key + "&g=" + game_id_list[game] + "&u=player1041&a=1");
-
+new function get_game_data(
+	game_id, api_key, game_id_list) {
+	async RequestUrl("https://retroachievements.org/API/API_GetGameInfoAndUserProgress.php?z=player1041&y=" + api_key + "&g=" + game_id_list[game_id] + "&u=player1041&a=1");
+}
 
 dv.paragraph(game_request.json);
 dv.span(game_request.json.HighestAwardKind);
 for(game_id of game_id_list)
-	game_request = get_game_data(game
+	await game_request = get_game_data(game_id, api_key, game_id_list);
 	if(game_request.json.HighestAwardKind == "mastered")
 		dv.span("Finished. " + game_id);
 	if(game_request.json.HighestAwardKind == "beaten-hardcore")
