@@ -21,9 +21,9 @@ results.forEach(achievement => {
 ## Game
 
 ~~~dataviewjs
-
+const api_key = 'PVDnPdtXTW6QsC4gKI0OnYDiQJS0NjRb';
 let id = 0;
-let game_request = null;
+let game = 0;
 let game_data = null;
 const game_id_list = [
 1, // Sonic the Hedgehog - Genesis
@@ -33,9 +33,10 @@ const game_id_list = [
 28548 // Loopover - NDS
 ];
 let constructed_games = '';
+const game_data = await requestUrl('https://retroachievements.org/API/API_GetUserCompletionProgress.php?u=Player1041&z=player1041&y=' + api_key + '&c=150');
+let count = game_data.json.Total;
 for(id in game_id_list)
-	game_data = await requestUrl('https://retroachievements.org/API/API_GetGameInfoAndUserProgress.php?z=player1041&y=PVDnPdtXTW6QsC4gKI0OnYDiQJS0NjRb&g=' + game_id_list[id] + '&u=Player1041');
-	dv.paragraph(game_data.json);
-	constructed_games = constructed_games.concat(game_data.json.ID);
-dv.paragraph(constructed_games);
+	for(game in game_data.json.Results)
+		if(game_data.json.Results.0.GameID == id)
+			constructed_games = constructed_games.concat(" ", 
 ~~~
