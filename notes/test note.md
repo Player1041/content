@@ -32,50 +32,17 @@ const game_id_list = [
 let game_data = null;
 
 for(game_id of game_id_list) {
-	game_data = await RequestUrl("https://retroachievements.org/API/API_GetGameInfoAndUserProgress.php?z=player1041&y=" + api_key + "&g=" + game_id_list[game_id] + "&u=player1041&a=1");
+	game_data = await requestUrl("https://retroachievements.org/API/API_GetGameInfoAndUserProgress.php?z=player1041&y=" + api_key + "&g=" + game_id + "&u=player1041&a=1");
 
 	if(game_data.json.HighestAwardKind == "mastered") {
-		dv.paragraph("Mastered" + game_data.json.ID);
-	} else {
-		dv.paragraph("Incomplete" + game_data.json.ID);
+		dv.paragraph("Mastered " + game_data.json.ID);
+	} 
+	if(game_data.json.HighestAwardKind == "beaten-hardcore") {
+		dv.paragraph("Beaten Hardcore " + game_data.json.ID);
+		}
+	else {
+		dv.paragraph("Incomplete " + game_data.json.ID);
 		}
 }
 ~~~
 
-
-## Game
-
-~~~dataviewjs
-const api_key = 'PVDnPdtXTW6QsC4gKI0OnYDiQJS0NjRb';
-let game_id = 0;
-const game_id_list = [
-1, // Sonic the Hedgehog - Genesis
-2, // Aladdin - Genesis
-3, // Streets of Rage 2 - Genesis
-30, // Jet Force Gemini - N64
-2543, // Konami Krazy Racers - GBA
-15626, // Gran Turismo - PSP
-28548 // Loopover - NDS
-];
-let constructed_games = '';
-
-new function get_game_data(
-	game_id, api_key, game_id_list) {
-	async RequestUrl("https://retroachievements.org/API/API_GetGameInfoAndUserProgress.php?z=player1041&y=" + api_key + "&g=" + game_id_list[game_id] + "&u=player1041&a=1");
-}
-
-dv.paragraph(game_request.json);
-dv.span(game_request.json.HighestAwardKind);
-for(game_id of game_id_list)
-	await game_request = get_game_data(game_id, api_key, game_id_list);
-		if(game_request.json.HighestAwardKind == "mastered") {
-		dv.span("Finished. " + game_id);
-	}
-
-	if(game_request.json.HighestAwardKind == "beaten-hardcore")
-		dv.span("Beaten. " + game_id);
-	else
-		dv.span("Incomplete. " + game_id);
-	game++;
-	
-~~~
