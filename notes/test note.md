@@ -11,7 +11,7 @@ const headers = dv.current().file.header;
 let completedBoards = 0;
 
 // Get all boards
-const board1 = dv.current().file.tasks.where((t) => t.section.subpath == "Game 2" Games");
+const board1 = dv.current().file.tasks.where((t) => t.section.subpath == "Game 2" );
 const board2 = dv.current().file.tasks.where((t) => t.section.subpath == "Board 2 Games");
 const board3 = dv.current().file.tasks.where((t) => t.section.subpath == "Board 3 Games");
 const board4 = dv.current().file.tasks.where((t) => t.section.subpath == "Board 4 Games");
