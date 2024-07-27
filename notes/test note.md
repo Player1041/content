@@ -32,9 +32,10 @@ const game_id_list = [
 30, // Jet Force Gemini - N64
 28548 // Loopover - NDS
 ];
-let constructed_games = [];
+let constructed_games = '';
 for(id in game_id_list)
 	game_data = await requestUrl('https://retroachievements.org/API/API_GetGameInfoAndUserProgress.php?z=player1041&y=PVDnPdtXTW6QsC4gKI0OnYDiQJS0NjRb&g=' + game_id_list[id] + '&u=Player1041');
-	constructed_games.push(dv.paragraph(game_data.json.ID));
-	constructed_games[id];
+	dv.paragraph(game_data.json);
+	constructed_games = constructed_games.concat(game_data.json.ID);
+dv.paragraph(constructed_games);
 ~~~
