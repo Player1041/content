@@ -34,7 +34,7 @@ const game_id_list = [
 ];
 let constructed_games = [];
 for(id in game_id_list)
-	game_request = await requestUrl('https://retroachievements.org/API/API_GetGameInfoAndUserProgress.php?z=player1041&y=PVDnPdtXTW6QsC4gKI0OnYDiQJS0NjRb&g=14402&u=MaxMilyin');
-	game_data = JSON.parse(game_request);
-	dv.paragraph(game_data.ID);
+	game_data = await requestUrl('https://retroachievements.org/API/API_GetGameInfoAndUserProgress.php?z=player1041&y=PVDnPdtXTW6QsC4gKI0OnYDiQJS0NjRb&g=' + game_id_list[id] + '&u=Player1041');
+	constructed_games.push(dv.paragraph(game_data.json.ID));
+	constructed_games[id];
 ~~~
