@@ -23,8 +23,7 @@ results.forEach(achievement => {
 
 ~~~dataviewjs
 const api_key = 'PVDnPdtXTW6QsC4gKI0OnYDiQJS0NjRb';
-let game = 0;
-let game_request = await requestUrl("https://retroachievements.org/API/API_GetGameInfoAndUserProgress.php?z=player1041&y=" + api_key + "&g=" + 2543 + "&u=player1041&a=1");
+let game_id = 0;
 const game_id_list = [
 1, // Sonic the Hedgehog - Genesis
 2, // Aladdin - Genesis
@@ -36,15 +35,20 @@ const game_id_list = [
 ];
 let constructed_games = '';
 
+const get_game_data = new function(
+'game_id', 'api_key', 'game_id_list', 'return RequestUrl("https://retroachievements.org/API/API_GetGameInfoAndUserProgress.php?z=player1041&y=" + api_key + "&g=" + game_id_list[game] + "&u=player1041&a=1");
+
+
 dv.paragraph(game_request.json);
 dv.span(game_request.json.HighestAwardKind);
-for(game of game_id_list)
+for(game_id of game_id_list)
+	game_request = get_game_data(game
 	if(game_request.json.HighestAwardKind == "mastered")
-		dv.span("Finished. " + game);
+		dv.span("Finished. " + game_id);
 	if(game_request.json.HighestAwardKind == "beaten-hardcore")
-		dv.span("Beaten. " + game);
+		dv.span("Beaten. " + game_id);
 	else
-		dv.span("Incomplete. " + game);
+		dv.span("Incomplete. " + game_id);
 	game++;
 	
 ~~~
