@@ -7,18 +7,18 @@ draft: true
 shaking text
 ‼‼
 
-That sounds complicated. I would recommend generating the list of checkboxes from the result of the API instead. Something like
-~~~/*dataviewjs
-const results = await requestUrl(...);
-results.forEach(achievement => {
-  if (/* mastered or beaten */) {
-    dv.paragraph(`- [x] ${/* achievement details */}`);
-  } else {
-    dv.paragraph(`- [ ] ${/* achievement details */}`);
-  }
-});*/
+~~~dataviewjs
+const headers = dv.current().file.header;
+// Get all tasks under a specific header
+const tasks = dv.current().file.tasks.where((t) => t.section.subpath == "Game 2");
+// Get only the completed tasks
+const completed = tasks.where((t) => t.completed);
+// Output to desired string format
+if(tasks.length == completed.length)
+	dv.paragraph("**Fully Completed Board 1**");
+else
+	dv.paragraph("**" + completed.length + "/" + tasks.length + " completed**");
 ~~~
-
 ## Game 2
 
 ~~~dataviewjs
@@ -35,14 +35,14 @@ for(game_id of game_id_list) {
 	game_data = await requestUrl("https://retroachievements.org/API/API_GetGameInfoAndUserProgress.php?z=player1041&y=" + api_key + "&g=" + game_id + "&u=player1041&a=1");
 
 	if(game_data.json.HighestAwardKind == "mastered") {
-		//dv.paragraph("Mastered " + game_data.json.ID + " " + game_data.json.Title);
-		dv.paragraph(" - [x] **${game_data.json.Title}** - ${game_data.json.ConsoleName}")
+		
+		dv.paragraph(` - [x] **${game_data.json.Title}** - ${game_data.json.ConsoleName}`);
 	} 
-	if(game_data.json.HighestAwardKind == "beaten-hardcore") {
-		//dv.paragraph("Beaten Hardcore " + game_data.json.ID + " " + game_data.json.Title);
+	else if(game_data.json.HighestAwardKind == "beaten-hardcore") {
+		dv.paragraph(` - [x] **${game_data.json.Title}** - ${game_data.json.ConsoleName}`);
 		}
 	else {
-		//dv.paragraph("Incomplete " + game_data.json.ID + " " + game_data.json.Title);
+		dv.paragraph(` - [ ] **${game_data.json.Title}** - ${game_data.json.ConsoleName}`);
 		}
 }
 ~~~
