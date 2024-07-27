@@ -35,13 +35,13 @@ for(game_id of game_id_list) {
 	game_data = await requestUrl("https://retroachievements.org/API/API_GetGameInfoAndUserProgress.php?z=player1041&y=" + api_key + "&g=" + game_id + "&u=player1041&a=1");
 
 	if(game_data.json.HighestAwardKind == "mastered") {
-		dv.paragraph("Mastered " + game_data.json.ID);
+		dv.paragraph("Mastered " + game_data.json.ID + " " + game_data.json.Title);
 	} 
 	if(game_data.json.HighestAwardKind == "beaten-hardcore") {
-		dv.paragraph("Beaten Hardcore " + game_data.json.ID);
+		dv.paragraph("Beaten Hardcore " + game_data.json.ID + " " + game_data.json.Title);
 		}
 	else {
-		dv.paragraph("Incomplete " + game_data.json.ID);
+		dv.paragraph("Incomplete " + game_data.json.ID + " " + game_data.json.Title);
 		}
 }
 ~~~
