@@ -33,7 +33,8 @@ const game_id_list = [
 28548 // Loopover - NDS
 ];
 let constructed_games = '';
-const game_request = "https://retroachievements.org/API/API_GetGameInfoAndUserProgress.php?z=player1041&y=PVDnPdtXTW6QsC4gKI0OnYDiQJS0NjRb&g=" + id + "u=player1041"
+const game_request = "https://retroachievements.org/API/API_GetGameInfoAndUserProgress.php?z=player1041&y=PVDnPdtXTW6QsC4gKI0OnYDiQJS0NjRb&g=" + game_id_list[id] + "u=player1041"
 
-F
+for(id in game_id_list)
+	if(game_request.json.
 ~~~
