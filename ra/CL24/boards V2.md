@@ -93,13 +93,13 @@ else
 ![[b1j.png | 250]]
 
 ## Board 1 Games
-- [x] **Kart Racing** - Moorhuhn Kart - PSX - 9th January - 2h 44m
-- [x] **2D Platforming** - Drawn to Life: SpongeBob Edition - NDS - 29th February - 11h 45m
-- [x] **3D Fighting** - Skipped - N/A - N/A - N/A
-- [x] **Action** - 
-- [x] **Wildcard** -
-- [x] **Educational** -
-- [x] **Run and Gun** -
+- [ ] **Kart Racing** - Moorhuhn Kart - PSX - 9th January - 2h 44m
+- [ ] **2D Platforming** - Drawn to Life: SpongeBob Edition - NDS - 29th February - 11h 45m
+- [ ] **3D Fighting** - Skipped - N/A - N/A - N/A
+- [ ] **Action** - 
+- [ ] **Wildcard** -
+- [ ] **Educational** -
+- [ ] **Run and Gun** -
 
 ~~~dataviewjs
 const headers = dv.current().file.header;
