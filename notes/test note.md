@@ -22,12 +22,25 @@ results.forEach(achievement => {
 ## Game 2
 
 ~~~dataviewjs
-const api_key = 'PVDnPdtXTW6QsC4gKI0OnYDiQJS0NjRb':
+const api_key = 'PVDnPdtXTW6QsC4gKI0OnYDiQJS0NjRb';
 let game_id = 0;
 const game_id_list = [
 1, // Sonic the Hedgehog - Incomplete
 2543, // Konami Krazy Racers - Beaten Hardcore
+28548 // Loopover - Mastered
+];
+let game_data = null;
 
+for(game_id of game_id_list) {
+	game_data = await RequestUrl("https://retroachievements.org/API/API_GetGameInfoAndUserProgress.php?z=player1041&y=" + api_key + "&g=" + game_id_list[game_id] + "&u=player1041&a=1");
+
+	if(game_data.json.HighestAwardKind == "mastered") {
+		dv.paragraph("Mastered" + game_data.json.ID);
+	} else {
+		dv.paragraph("Incomplete" + game_data.json.ID);
+		}
+}
+~~~
 
 
 ## Game
