@@ -34,17 +34,14 @@ const game_id_list = [
 ];
 let constructed_games = '';
 const game_request = await requestUrl("https://retroachievements.org/API/API_GetGameInfoAndUserProgress.php?z=player1041&y=" + api_key + "&g=" + game_id_list[game] + "&u=player1041&a=1");
-dv.span(game_request.json);
-/*for(game in game_id_list)
-	if(game_request.json.HighestAwardGiven == "mastered") {
+
+for(game in game_id_list)
+	if(game_request.json.HighestAwardKind == "mastered")
 		dv.span("Finished. " + game);
-	}
-	if(game_request.json.HighestAwardGiven == "beaten-hardcore") {
+	if(game_request.json.HighestAwardKind == "beaten-hardcore")
 		dv.span("Beaten " + game);
-	}
-	else {
+	else
 		dv.span("Incomplete. " + game);
-	}
-	game++;*/
+	game++;
 	
 ~~~
