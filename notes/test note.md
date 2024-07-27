@@ -33,13 +33,18 @@ const game_id_list = [
 28548 // Loopover - NDS
 ];
 let constructed_games = '';
-const game_request = await requestUrl("https://retroachievements.org/API/API_GetGameInfoAndUserProgress.php?z=player1041&y=" api_key + "&g=" + game_id_list[game] + "&u=player1041&a=1");
-
-for(game in game_id_list)
-	if(game_request.json.HighestAwardGiven == "mastered" or "beaten-hardcore")
+const game_request = await requestUrl("https://retroachievements.org/API/API_GetGameInfoAndUserProgress.php?z=player1041&y=" + api_key + "&g=" + game_id_list[game] + "&u=player1041&a=1");
+dv.span(game_request.json);
+/*for(game in game_id_list)
+	if(game_request.json.HighestAwardGiven == "mastered") {
 		dv.span("Finished. " + game);
-	else
+	}
+	if(game_request.json.HighestAwardGiven == "beaten-hardcore") {
+		dv.span("Beaten " + game);
+	}
+	else {
 		dv.span("Incomplete. " + game);
-	game++;
+	}
+	game++;*/
 	
 ~~~
