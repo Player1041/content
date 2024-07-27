@@ -13,7 +13,7 @@ shaking text
 const api_key = 'PVDnPdtXTW6QsC4gKI0OnYDiQJS0NjRb';
 let game_id = 0;
 const game_id_list = [
-1, // Sonic the Hedgehog - Incomplete
+7224, // Sonic the Hedgehog - Incomplete
 2543, // Konami Krazy Racers - Beaten Hardcore
 28548 // Loopover - Mastered
 ];
@@ -34,9 +34,9 @@ for(game_id of game_id_list) {
 }
 
 if(games_completed == game_id_list.length) {
-	dv.paragraph("Board 1 Complete!")
+	dv.paragraph("Board 1 Complete!");
 } else {
-	dv.paragraph(`${games_completed}/${games_id_list.length})
+	dv.paragraph(`${games_completed}/${game_id_list.length} Completed`);
 }
 ~~~
 
