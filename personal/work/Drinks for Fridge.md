@@ -1,12 +1,5 @@
-- [ ] Oasis Summer
-- [ ] Dr Pepper
-- [ ] Fanta fruit twist
-- [ ] coke zero
-- [ ] full fat coke
-- [ ] Cherry coke
-- [ ] Irn bru
-- [ ] lucozade original
-- [ ] red bull
-- [ ] mango and passionfruit
-- [ ] sparkling lemonade
-
+- oasis both
+- Irn bru
+- lucozade orange
+- lucozade pink
+- water both
