@@ -8,12 +8,12 @@ shaking text
 ‼‼
 ~~~dataviewjs
 const headers = dv.current().file.header;
-window.completedBoards = 0;
-
-if(window.completedBoards == 2) {
+kv.set("completed_boards", 0);
+let completed_boards = kv.get("completed_boards")
+if(completed_boards == 2) {
 	dv.paragraph("**🎉 Challenge League 2024 Completed! 🎉**");
 	} else {
-	dv.paragraph("**I have completed " + window.completedBoards + "/9 boards.**");
+	dv.paragraph("**I have completed " + completed_boards + "/9 boards.**");
 	}
 ~~~
 
@@ -32,7 +32,7 @@ const game_id_list = [
 ];
 let game_data = null;
 let games_completed = 0;
-window.is_board1_complete = false;
+kv.set("board1_complete", false);
 for(game_id of game_id_list) {
 	game_data = await requestUrl("https://retroachievements.org/API/API_GetGameInfoAndUserProgress.php?z=player1041&y=" + api_key + "&g=" + game_id + "&u=player1041&a=1");
 
@@ -55,4 +55,3 @@ if(games_completed == game_id_list.length) {
 	dv.paragraph(`${games_completed}/${game_id_list.length} Completed`);
 }
 ~~~
-
