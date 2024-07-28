@@ -8,18 +8,13 @@ shaking text
 ‼‼
 ~~~dataviewjs
 const headers = dv.current().file.header;
-kv.set("completed_boards", 0);
-let completed_boards = kv.get("completed_boards")
-if(completed_boards == 2) {
+if(kv.get("completed_boards") == 2) {
 	dv.paragraph("**🎉 Challenge League 2024 Completed! 🎉**");
 	} else {
-	dv.paragraph("**I have completed " + completed_boards + "/9 boards.**");
+	dv.paragraph("**I have completed " + kv.get("completed_boards") + "/9 boards.**");
 	}
 ~~~
 
-example text
-could you change this
-to say that?
 ## Game 2
 
 ~~~dataviewjs
@@ -48,9 +43,9 @@ for(game_id of game_id_list) {
 }
 
 if(games_completed == game_id_list.length) {
+	kv.set("board1_complete", true);
+	kv.set("completed_boards", kv.get("completed_boards") + 1);
 	dv.paragraph("Board 1 Complete!");
-	window.is_board1_complete = true;
-	window.completedBoards++;
 } else {
 	dv.paragraph(`${games_completed}/${game_id_list.length} Completed`);
 }
