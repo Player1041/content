@@ -9,57 +9,6 @@ Challenge League: Ticket to the Universe is an event run on [RetroAchievements](
 ## My Current Progress
 
 
-~~~dataviewjs
-const headers = dv.current().file.header;
-let completedBoards = 0;
-
-// Get all boards
-const board1 = dv.current().file.tasks.where((t) => t.section.subpath == "Board 1 Games");
-const board2 = dv.current().file.tasks.where((t) => t.section.subpath == "Board 2 Games");
-const board3 = dv.current().file.tasks.where((t) => t.section.subpath == "Board 3 Games");
-const board4 = dv.current().file.tasks.where((t) => t.section.subpath == "Board 4 Games");
-const board5 = dv.current().file.tasks.where((t) => t.section.subpath == "Board 5 Games");
-const board6 = dv.current().file.tasks.where((t) => t.section.subpath == "Board 6 Games");
-const board7 = dv.current().file.tasks.where((t) => t.section.subpath == "Board 7 Games");
-const board8 = dv.current().file.tasks.where((t) => t.section.subpath == "Board 8 Games");
-const board9 = dv.current().file.tasks.where((t) => t.section.subpath == "Board 9 Games");
-
-// Get all tasks
-const completed1 = board1.where((t) => t.completed);
-const completed2 = board2.where((t) => t.completed);
-const completed3 = board3.where((t) => t.completed);
-const completed4 = board4.where((t) => t.completed);
-const completed5 = board5.where((t) => t.completed);
-const completed6 = board6.where((t) => t.completed);
-const completed7 = board7.where((t) => t.completed);
-const completed8 = board8.where((t) => t.completed);
-const completed9 = board9.where((t) => t.completed);
-
-if(board1.length == completed1.length)
-	completedBoards++;
-if(board2.length == completed2.length)
-	completedBoards++;
-if(board3.length == completed3.length)
-	completedBoards++;
-if(board4.length == completed4.length)
-	completedBoards++;
-if(board5.length == completed5.length)
-	completedBoards++;
-if(board6.length == completed6.length)
-	completedBoards++;
-if(board7.length == completed7.length)
-	completedBoards++;
-if(board8.length == completed8.length)
-	completedBoards++;
-if(board9.length == completed9.length)
-	completedBoards++;
-if(completedBoards == 9)
-	dv.paragraph("**🎉 Challenge League 2024 Completed! 🎉**");
-
-else
-	dv.paragraph("**I have completed " + completedBoards + "/9 boards.**");
-~~~
-
 # Games to Assign
 ## Suggestions
 **The Incredible Hulk: Ultimate Destruction** - PS2
@@ -93,27 +42,40 @@ else
 ![[b1j.png | 250]]
 
 ## Board 1 Games
-- [ ] **Kart Racing** - Moorhuhn Kart - PSX - 9th January - 2h 44m
-- [ ] **2D Platforming** - Drawn to Life: SpongeBob Edition - NDS - 29th February - 11h 45m
-- [ ] **3D Fighting** - Skipped - N/A - N/A - N/A
-- [ ] **Action** - 
-- [ ] **Wildcard** -
-- [ ] **Educational** -
-- [ ] **Run and Gun** -
 
 ~~~dataviewjs
-const headers = dv.current().file.header;
-// Get all tasks under a specific header
-const tasks = dv.current().file.tasks.where((t) => t.section.subpath == "Board 1 Games");
-// Get only the completed tasks
-const completed = tasks.where((t) => t.completed);
-// Output to desired string format
-if(tasks.length == completed.length)
-	dv.paragraph("**Fully Completed Board 1**");
-else
-	dv.paragraph("**" + completed.length + "/" + tasks.length + " completed**");
-~~~
+const api_key = 'PVDnPdtXTW6QsC4gKI0OnYDiQJS0NjRb';
+let game_id = 0;
+const game_id_list = [
+17160, // Moorhuhn Kart - Mastered
+2543, // Konami Krazy Racers - Beaten Hardcore
+28548 // Loopover - Mastered
+];
+let game_data = null;
+let games_completed = 0;
+kv.set("board1_complete", false);
+for(game_id of game_id_list) {
+	game_data = await requestUrl("https://retroachievements.org/API/API_GetGameInfoAndUserProgress.php?z=player1041&y=" + api_key + "&g=" + game_id + "&u=player1041&a=1");
 
+	if(game_data.json.HighestAwardKind == "mastered") {
+		dv.paragraph(` - [x] **${game_data.json.Title}** - ${game_data.json.ConsoleName}`);
+		games_completed++;
+	} else if(game_data.json.HighestAwardKind == "beaten-hardcore") {
+		dv.paragraph(` - [x] **${game_data.json.Title}** - ${game_data.json.ConsoleName}`);
+		games_completed++;
+	} else {
+		dv.paragraph(` - [ ] **${game_data.json.Title}** - ${game_data.json.ConsoleName}`);
+		}
+}
+
+if(games_completed == game_id_list.length) {
+	kv.set("board1_complete", true);
+	kv.set("completed_boards", kv.get("completed_boards") + 1);
+	dv.paragraph("Board 1 Complete!");
+} else {
+	dv.paragraph(`${games_completed}/${game_id_list.length} Completed`);
+}
+~~~
 # Board 2 - February
 ### Theme: [Protagonist](https://retroachievements.org/game/5962)
 ## Image
@@ -121,38 +83,7 @@ else
 ![[b2f.png|280]]
 
 ## Board 2 Games
-- [ ] **Thief** -
-- [ ] **Alien** -
-- [ ] **Wildcard** -
-- [ ] **Clown** - Skipped - N/A - N/A - !LA
-- [ ] **Detective** -
-- [ ] **Female** -
-- [ ] **Wildcard** - Cut the Rope - DSi - 15th February - ?h ?m
 
-~~~dataviewjs
-const headers = dv.current().file.header;
-// Get all tasks under a specific header
-const tasks = dv.current().file.tasks.where((t) => t.section.subpath == "Board 2 Games");
-// Get only the completed tasks
-const completed = tasks.where((t) => t.completed);
-// Output to desired string format
-if(tasks.length == completed.length)
-	dv.paragraph("**Fully Completed Board 2**");
-else
-	dv.paragraph("**" + completed.length + "/" + tasks.length + " completed**");
-~~~
-~~~dataviewjs
-const headers = dv.current().file.header;
-// Get all tasks under a specific header
-const tasks = dv.current().file.tasks.where((t) => t.section.subpath == "Board 1 Games");
-// Get only the completed tasks
-const completed = tasks.where((t) => t.completed);
-// Output to desired string format
-if(tasks.length == completed.length)
-	dv.paragraph("**Fully Completed Board 1**");
-else
-	dv.paragraph("**" + completed.length + "/" + tasks.length + " completed**");
-~~~
 
 # Board 3 - March
 ### Theme: [Themes](https://retroachievements.org/game/5917)
@@ -161,24 +92,7 @@ else
 ![[b3m.png|340]]
 
 ## Board 3 Games
-- [ ] **Cameo/Crossover** - Konami Krazy Racers - GBA - 28th May - ?h ?m
-- [ ] **Post-Apocalyptic** - Skipped - N/A - N/A - N/A
-- [ ] **Canines** - Wappy Dog - DS - 20th April - 4/5h 0m
-- [ ] **Wildcard Portal** - Hello Kitty no Magical Museum - GBC - 6th March - 28m
-- [ ] **Wildcard Dracula** - Looney Tunes: Space Race - Dreamcast - 3rd March - 4/5h 0m
 
-~~~dataviewjs
-const headers = dv.current().file.header;
-// Get all tasks under a specific header
-const tasks = dv.current().file.tasks.where((t) => t.section.subpath == "Board 3 Games");
-// Get only the completed tasks
-const completed = tasks.where((t) => t.completed);
-// Output to desired string format
-if(tasks.length == completed.length)
-	dv.paragraph("**Fully Completed Board 3**");
-else
-	dv.paragraph("**" + completed.length + "/" + tasks.length + " completed**");
-~~~
 # Board 4 - May
 ### Theme: [Series](https://retroachievements.org/game/5771)
 ## Image
@@ -212,18 +126,6 @@ else
 	- Mega Man
 - [ ] **Wildcard** - 
 
-~~~dataviewjs
-const headers = dv.current().file.header;
-// Get all tasks under a specific header
-const tasks = dv.current().file.tasks.where((t) => t.section.subpath == "Board 4 Games");
-// Get only the completed tasks
-const completed = tasks.where((t) => t.completed);
-// Output to desired string format
-if(tasks.length == completed.length)
-	dv.paragraph("**Fully Completed Board 4**");
-else
-	dv.paragraph("**" + completed.length + "/" + tasks.length + " completed**");
-~~~
 # Board 5 - June
 ### Theme: [Hacks](https://retroachievements.org/game/6225) & [Homebrews](https://retroachievements.org/game/2513)
 ## Image
@@ -259,18 +161,6 @@ else
 	- Magnevox Odyssey 2
 - [ ] **H - Ultima Wildcard**
 
-~~~dataviewjs
-const headers = dv.current().file.header;
-// Get all tasks under a specific header
-const tasks = dv.current().file.tasks.where((t) => t.section.subpath == "Board 5 Games");
-// Get only the completed tasks
-const completed = tasks.where((t) => t.completed);
-// Output to desired string format
-if(tasks.length == completed.length)
-	dv.paragraph("**Fully Completed Board 5**");
-else
-	dv.paragraph("**" + completed.length + "/" + tasks.length + " completed**");
-~~~
 # Board 6 - July
 ## Theme: [Console Generations](https://retroachievements.org/gameList.php)
 ## Image
