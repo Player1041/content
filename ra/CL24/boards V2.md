@@ -56,6 +56,7 @@ let games_completed = 0;
 kv.set("board1_complete", false);
 for(game_id of game_id_list) {
 	game_data = await requestUrl("https://retroachievements.org/API/API_GetGameInfoAndUserProgress.php?z=player1041&y=" + api_key + "&g=" + game_id + "&u=player1041&a=1");
+	
 
 	if(game_data.json.HighestAwardKind == "mastered") {
 		dv.paragraph(` - [x] **${game_data.json.Title}** - ${game_data.json.ConsoleName}`);
