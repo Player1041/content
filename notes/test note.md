@@ -37,7 +37,7 @@ const game_id_list = [
     17160, // Moorhuhn Kart - Mastered
     2543, // Konami Krazy Racers - Beaten Hardcore
     28548, // Loopover - Mastered
-    15626 // GT PSP
+    // 15626 // GT PSP
 ];
 let game_data = null;
 let games_completed = 0;
@@ -60,16 +60,20 @@ for (game_id of game_id_list) {
         dv.paragraph(` - [ ] [**${game_data.json.Title}**](https://retroachievements.org/game/${game_id}) - ${game_data.json.ConsoleName} - **${game_data.json.NumAwardedToUser} / ${game_data.json.achievements_published}**`);
     }
 }
+dv.span(games_completed);
+dv.span(game_id_list.length);
 if (games_completed == game_id_list.length) {
-    if (!board['board1']) {
+	dv.span('in')
+    if (board['board1']) {
+	    dv.span('in?')
 		board['board1'] = true;
 		kv.set("boards", board);
         dv.paragraph("Board 1 Complete!");
     }
 } else {
+	dv.span('out');
     dv.paragraph(`${games_completed}/${game_id_list.length} Completed`);
     board['board1'] = false;
 	kv.set("boards", board);
 }
-
 ~~~
