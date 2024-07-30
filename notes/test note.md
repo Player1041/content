@@ -44,6 +44,7 @@ let games_completed = 0;
 let board = kv.get("boards");
 board['board1'] = true;
 kv.set("boards", board);
+dv.span(board)
 
 for (game_id of game_id_list) {
     game_data = await requestUrl("https://retroachievements.org/API/API_GetGameInfoAndUserProgress.php?z=player1041&y=" + api_key + "&g=" + game_id + "&u=player1041&a=1");
@@ -60,8 +61,8 @@ for (game_id of game_id_list) {
 }
 if (games_completed == game_id_list.length) {
     if (kv.get("boards" ["board1"]) != true) {
-
-        kv.set("boards" ["board1"], true);
+		board['board1'] = true;
+		kv.set("boards", board);
         dv.paragraph("Board 1 Complete!");
     } else {
         kv.set("boards" ["board1"], false);
@@ -69,4 +70,5 @@ if (games_completed == game_id_list.length) {
 } else {
     dv.paragraph(`${games_completed}/${game_id_list.length} Completed`);
 }
+
 ~~~

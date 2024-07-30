@@ -15,7 +15,7 @@ title: Gran Turismo
 ## Daihatsu
 - [ ] Daihatsu Midget II D Type '98
 ## DMC
-- [ ] DMC DeLorean S2 '04
+- [x] DMC DeLorean S2 '04
 ## Toyota
 - [ ] Toyota SPRINTER TRUENO APEX (S. Shigeno Version) '00
 - [ ] Toyota GT-ONE Race Car (TS020) '99
