@@ -47,9 +47,14 @@ let finished_boards = 0;
 let game = 0;
 let board = kv.get("boards");
 
-let total_games_played = kv.get("total_games_played");
-let total_games_num = 0;
-let games_counted = 0;
+let games_total = kv.get("total_games");
+let games_total_counted = 0;
+let x = 0;
+
+let games_played  = kv.get("games_played");
+let games_played_counted = 0;
+let y = 0;
+
 for (game in board) {
     if (board[game]) {
         finished_boards++;
@@ -62,7 +67,11 @@ if (finished_boards == 2) {
     dv.paragraph("**I have completed " + finished_boards + "/9 boards.**");
 }
 
-dv.paragraph(`);
+for(x of games_total) {
+	games_total_counted = games_total_counted + x
+}
+
+dv.paragraph(`Overview: ${games_total_counted}`);
 ~~~
 
 ## Game 2
