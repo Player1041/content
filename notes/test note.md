@@ -2,17 +2,20 @@
 title: Test Site for various Doohickeys and Trinkets
 draft: true
 ---
-
+```
+"total_games":{"board1":0,"board2":0,"board3":0,"board4":0,"board5":0,"board6":0,"board7":0,"board8":0,"board9":0}}
+```
 ‼‼
 shaking text
 ‼‼
 ~~~dataviewjs
-const headers = dv.current().file.header;
 let finished_boards = 0;
 let game = 0;
-
 let board = kv.get("boards");
 
+let total_games_played = kv.get("total_games_played");
+let total_games_num = 0;
+let games_counted = 0;
 for (game in board) {
     if (board[game]) {
         finished_boards++;
@@ -24,6 +27,11 @@ if (finished_boards == 2) {
 } else {
     dv.paragraph("**I have completed " + finished_boards + "/9 boards.**");
 }
+
+for (games_counted in total_games_played) {
+	total_games_num = total_games_num + games_counted;
+}
+dv.paragraph(total_games_num);
 ~~~
 
 ## Game 2
@@ -39,7 +47,8 @@ const game_id_list = [
 ];
 let game_data = null;
 let games_completed = 0;
-
+let games_available = kv.get("total_games_overall");
+kv.set("games_available")
 let board = kv.get("boards");
 
 for (game_id of game_id_list) {
