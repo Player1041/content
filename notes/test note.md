@@ -67,10 +67,11 @@ if (finished_boards == 2) {
     dv.paragraph("**I have completed " + finished_boards + "/9 boards.**");
 }
 
+
+dv.span(games_total);
 for(x in games_total) {
-dv.paragraph(x);
-	for (y of x) {
-		dv.paragraph(y);
+	for (y in games_total[x]) {
+	dv.span(y);
 		games_total_counted = games_total_counted + y
 	}
 }
