@@ -12,11 +12,9 @@ let finished_boards = 0;
 let game = 0;
 
 let board = kv.get("boards");
-dv.span(board);
 
-for (game in kv.get("boards")) {
-    if (kv.get("boards" [`board${game}`]) == true) {
-        dv.paragraph(kv.get("boards" [`board${game}`]));
+for (game in board) {
+    if (board[game]) {
         finished_boards++;
         dv.paragraph(finished_boards);
     }
@@ -37,15 +35,12 @@ const game_id_list = [
     17160, // Moorhuhn Kart - Mastered
     2543, // Konami Krazy Racers - Beaten Hardcore
     28548, // Loopover - Mastered
-    15626 // GT PSP
+    // 15626 // GT PSP
 ];
 let game_data = null;
 let games_completed = 0;
 
 let board = kv.get("boards");
-dv.paragraph(board);
-let holder= dv.span("");
-holder.innerText = "changed";
 
 for (game_id of game_id_list) {
     game_data = await requestUrl("https://retroachievements.org/API/API_GetGameInfoAndUserProgress.php?z=player1041&y=" + api_key + "&g=" + game_id + "&u=player1041&a=1");
@@ -60,8 +55,7 @@ for (game_id of game_id_list) {
         dv.paragraph(` - [ ] [**${game_data.json.Title}**](https://retroachievements.org/game/${game_id}) - ${game_data.json.ConsoleName} - **${game_data.json.NumAwardedToUser} / ${game_data.json.achievements_published}**`);
     }
 }
-dv.span(games_completed);
-dv.span(game_id_list.length);
+
 if(games_completed == game_id_list.length) {
 	board['board1'] = true;
 	kv.set("boards", board);
