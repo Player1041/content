@@ -40,8 +40,9 @@ const game_id_list = [
 ];
 let game_data = null;
 let games_completed = 0;
+
 let board = kv.get("boards");
-board['board1'] = false;
+board['board1'] = true;
 kv.set("boards", board);
 
 for (game_id of game_id_list) {
