@@ -68,11 +68,15 @@ if (finished_boards == 2) {
 
 
 dv.span(games_total);
-for(let game of games_total) {
+for(let game in games_total) {
 	games_total_counted = games_total_counted + games_total[game];
 }
 
-dv.paragraph(`Overview: ${games_total_counted}`);
+for(let game in games_played) {
+	games_played_counted = games_played_counted + games_played[game];
+}
+
+dv.paragraph(`Overview: ${games_played_counted}/${games_total_counted}`);
 ~~~
 
 ## Game 2
