@@ -67,13 +67,9 @@ if (finished_boards == 2) {
 }
 
 
-//dv.span(games_total);
-for(x in games_total) {
-	for (y in games_total[x]) {
-	dv.span(y);
-	dv.span(x);
-		games_total_counted = games_total_counted + y
-	}
+dv.span(games_total);
+for(let game of games_total) {
+	games_total_counted = games_total_counted + games_total[game];
 }
 
 dv.paragraph(`Overview: ${games_total_counted}`);
