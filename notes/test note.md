@@ -97,7 +97,6 @@ let games_completed = 0;
 let games_total = kv.get("total_games");
 games_total["board1"] = game_id_list.length;
 kv.set("total_games", games_total);
-dv.span(games_total)
 
 let games_played  = kv.get("games_played");
 let board = kv.get("boards");
@@ -127,5 +126,4 @@ if(games_completed == game_id_list.length) {
 }
 games_played["board1"] = games_completed;
 kv.set("games_played", games_played);
-dv.span(games_played)
 ~~~
