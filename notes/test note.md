@@ -58,7 +58,6 @@ let y = 0;
 for (game in board) {
     if (board[game]) {
         finished_boards++;
-        dv.paragraph(finished_boards);
     }
 }
 if (finished_boards == 2) {
@@ -68,10 +67,11 @@ if (finished_boards == 2) {
 }
 
 
-dv.span(games_total);
+//dv.span(games_total);
 for(x in games_total) {
 	for (y in games_total[x]) {
 	dv.span(y);
+	dv.span(x);
 		games_total_counted = games_total_counted + y
 	}
 }
