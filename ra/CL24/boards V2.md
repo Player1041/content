@@ -25,14 +25,25 @@ Challenge League: Ticket to the Universe is an event run on [RetroAchievements](
 **Coraline** - DS
 **The House of the Dead 2** - Dreamcast
 **Roll Away** - PSX
+**Chibi-Robo** - GameCube
+**Dance Dance Revolution: Mario Mix** - GameCube
+**Mario Kart: Double Dash!!** - GameCube
+**F-Zero GX** - GameCube
+**PN03** - GameCube
+**Pikmin** - GameCube
+**Ridge Racer 4** - PSX
+**Need for Speed: UG2** - PS2
+**Need for Speed: Carbon** - PS2
+
 
 ## Personal Wishlist
 **The Simpsons: Hit & Run** - PS2
-**Half Life** - PS2
 **Viewtiful Joe** - GameCube
 **Magical Mirror featuring Mickey Mouse** - GameCube
 **Arcade Bowling** - DSi
 **Half-Life** - PS2
+**Toy Story 3** - PSP
+**Barnyard** - GameCube
 
 
 # Board 1 - January
