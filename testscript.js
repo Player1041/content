@@ -26,7 +26,7 @@ for (game_id of game_id_list) {
 	    game_data = await requestUrl("https://retroachievements.org/API/API_GetGameInfoAndUserProgress.php?z=player1041&y=" + api_key + "&g=" + game_id + "&u=player1041&a=1");
 	    //dv.paragraph(game_data.json);
 	    if (game_data.json.HighestAwardKind == "mastered") {
-	        mdb.createParagraph(` - [x] [**${game_data.json.Title}**](https://retroachievements.org/game/${game_id}) - ${game_data.json.ConsoleName} - **${game_data.json.NumAwardedToUser} / ${game_data.json.achievements_published}**`);
+	        console.log(mdb.createParagraph(` - [x] [**${game_data.json.Title}**](https://retroachievements.org/game/${game_id}) - ${game_data.json.ConsoleName} - **${game_data.json.NumAwardedToUser} / ${game_data.json.achievements_published}**`));
 	        games_completed++;
 	    } else if (game_data.json.HighestAwardKind == "beaten-hardcore") {
 	        mdb.createParagraph(` - [x] [**${game_data.json.Title}**](https://retroachievements.org/game/${game_id}) - ${game_data.json.ConsoleName} - **${game_data.json.NumAwardedToUser} / ${game_data.json.achievements_published}**`);
@@ -48,5 +48,5 @@ if(games_completed == game_id_list.length) {
 }
 games_played["board1"] = games_completed;
 kv.set("games_played", games_played);
-
+console.log('chump');
 return mdb;
