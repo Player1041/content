@@ -27,4 +27,27 @@
 
 - [ ] Nature
 - [ ] Dye
-- [ ] 
+- [ ] Nether
+- [ ] Coal
+- [ ] Coral
+- [ ] Honey
+- [ ] Amethyst
+- [ ] Rubber
+- [ ] Silicon
+- [ ] Sulfur
+- [ ] Aluminium
+- [ ] Saltpeter
+- [ ] Apatite
+- [ ] Grain of Infinity
+- [ ] Mystical Flower
+- [ ] Limestone
+- [ ] Menril
+
+- [ ] Pig
+- [ ] Chicken
+- [ ] Cow
+- [ ] Sheep
+- [ ] Squid
+- [ ] Fish
+- [ ] Slime
+- [ ] Turtle
