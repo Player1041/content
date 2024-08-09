@@ -24,7 +24,6 @@
 - [ ] Fire
 
 ## Tier 2
-
 - [ ] Nature
 - [ ] Dye
 - [ ] Nether
@@ -51,3 +50,39 @@
 - [ ] Fish
 - [ ] Slime
 - [ ] Turtle
+
+## Tier 3
+- [ ] Azure Silver
+- [ ] Crimson Iron
+- [ ] Iron
+- [ ] Copper
+- [ ] Nether Quartz
+- [ ] Glowstone
+- [ ] Redstone
+- [ ] Obsidian
+- [ ] Prismarine
+- [ ] Tin
+- [ ] Bronze
+- [ ] Zinc
+- [ ] Brass
+- [ ] Silver
+- [ ] Lead
+- [ ] Graphite
+- [ ] Blizz
+- [ ] Blitz
+- [ ] Basalz
+- [ ] Copper Alloy
+- [ ] Redstone Alloy
+- [ ] Conductive Alloy
+- [ ] Manasteel
+- [ ] Steeleaf
+- [ ] Ironwood
+- [ ] Sky Stone
+- [ ] Certus Quartz
+- [ ] Quartz Enriched Iron
+
+- [ ] Zombie
+- [ ] Skeleton
+- [ ] Creeper
+- [ ] Spider
+- [ ] Rabbit
